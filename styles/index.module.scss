@@ -1,0 +1,256 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .solgen {
+        background: url(../public/imgs/solgen_bg.jpg) no-repeat center top/ 100% auto;
+        height: 674px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        .solgen_title {
+            color: #fef100;
+            font-family: Impact;
+            font-size: 60px;
+            text-align: center;
+            line-height: 1em;
+            margin-top: -110px;
+            margin-bottom: 110px;
+        }
+
+        .solgen_subtitle {
+            text-align: center;
+            color: #fff;
+            font-family: Impact;
+            font-size: 26px;
+            line-height: 1.5em;
+        }
+
+        .solgen_logo {
+            background: url(../public/imgs/solgen_logo.png) no-repeat center/100% auto;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 50%;
+            margin-left: -40px;
+            bottom: 120px;
+            z-index: 99;
+        }
+
+        .player_left {
+            background: url(../public/imgs/player_left.png) no-repeat center/ 100% auto;
+            width: 410px;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            margin-left: -620px;
+            margin-top: -20px;
+        }
+
+        .player_right {
+            background: url(../public/imgs/player_right.png) no-repeat center/ 100% auto;
+            width: 410px;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            margin-left: 170px;
+            margin-top: -40px;
+        }
+
+        .solgen_bottom_bg {
+            background: url(../public/imgs/solgen_bottom_bg.png) no-repeat center/ 100% auto;
+            width: 1200px;
+            height: 246px;
+            position: absolute;
+            z-index: 99;
+            bottom: 0px;
+        }
+
+        .solgen_token1 {
+            background: url(../public/imgs/solgen_token_icon.png) no-repeat center/ 100% auto;
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            left: 50%;
+            z-index: 10000;
+            top: 485px;
+            margin-left: 210px;
+        }
+
+        .solgen_token2 {
+            background: url(../public/imgs/solgen_token_icon2.png) no-repeat center/ 100% auto;
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            left: 50%;
+            z-index: 10000;
+            top: 440px;
+            margin-left: -500px;
+        }
+    }
+
+    .what_is_ffc {
+        background: #fff;
+        padding: 0 150px;
+        overflow: hidden;
+        .title {
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 70px;
+            padding-bottom: 20px;
+            h1 {
+                font-size: 80px;
+                position: relative;
+                z-index: 9;
+            }
+
+            h2 {
+                font-size: 110px;
+                position: absolute;
+                z-index: 8;
+                left: 50%;
+                color: #d8d8d8;
+                margin-left: -320px;
+                top: 20px;
+            }
+            p{
+                color: #555;
+                line-height: 1.7em;
+            }
+        }
+        .list{
+            overflow: hidden;
+            li{
+                overflow: hidden;
+                padding: 30px 0;
+                .cover {
+                    background: url(../public/imgs/list_cover.png) no-repeat center/ 100% auto;
+                    width: 260px;
+                    height: 156px;
+                }
+                .content {
+                    overflow: hidden;
+                    h1{
+                        color: #069159;
+                        font-size: 30px;
+                        text-indent: 10px;
+                        margin-top: 0px;
+                        line-height: 2em;
+                    }
+                }
+                &:nth-child(1){
+                    .cover{
+                        float: left;
+                        background-image: url(../public/imgs/list_cover.png);
+                        margin-right: 40px;
+                    }
+                }
+                &:nth-child(2) {
+                    .cover {
+                        float: right;
+                        background-image: url(../public/imgs/list_cover2.png);
+                        margin-right: 40px;
+                    }
+                }
+                &:nth-child(3) {
+                    .cover {
+                        float: left;
+                        background-image: url(../public/imgs/list_cover.png);
+                        margin-right: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .the_best{
+        background: url(../public/imgs/the_best_bg.jpg) no-repeat center/100% auto;
+        height: 580px;
+        overflow: hidden;
+        padding-top: 90px;
+        h1{
+            text-align: center;
+            color: #ccfd0b;
+            font-size: 30px;
+        }
+        ul{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            li{
+                width: 200px;
+                margin: 0 20px;
+                .cover {
+                    background: url(../public/imgs/player_1.png) no-repeat center/100% auto;
+                    width: 100%;
+                    height: 270px;
+                    display: block;
+                }
+                h1{
+                    color: #fff;
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 12px;
+                    color: #ccfd0b;
+                }
+                &:nth-child(1){
+                    .cover{
+                        background-image: url(../public/imgs/player_1.png) ;
+                    }                    
+                }
+                &:nth-child(2) {
+                    .cover {
+                        background-image: url(../public/imgs/player_2.png);
+                    }
+                }
+                &:nth-child(3) {
+                    .cover {
+                        background-image: url(../public/imgs/player_3.png);
+                    }
+                }
+                &:nth-child(4) {
+                    .cover {
+                        background-image: url(../public/imgs/player_4.png);
+                    }
+                }
+            }
+        }
+    }
+    .our_teams{
+        background: url(../public/imgs/our_team_bg.png) no-repeat center/100% auto;
+        height: 520px;
+        padding-top: 60px;
+        .title{
+            text-align: center;
+            font-size: 50px;
+            line-height: 3em;
+        }
+        ul{
+            text-align: center;
+            li{
+                background: url(../public/imgs/team_1.png) no-repeat center/100% auto;
+                display: inline-block;
+                width: 200px;
+                height: 200px;
+                margin: 0 20px;
+                &:nth-child(1){
+                    background-image: url(../public/imgs/team_1.png);
+                }
+                &:nth-child(2){
+                    background-image: url(../public/imgs/team_1.png);
+                }
+                &:nth-child(3) {
+                    background-image: url(../public/imgs/team_1.png);
+                }
+                &:nth-child(4){
+                    background-image: url(../public/imgs/team_1.png);
+                }
+            }
+        }
+    }
+}
