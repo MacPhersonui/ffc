@@ -94,7 +94,7 @@
 
     .what_is_ffc {
         background: #fff;
-        padding: 0 150px;
+        padding: 0 150px 70px 150px;
         overflow: hidden;
         .title {
             text-align: center;
@@ -126,7 +126,7 @@
             overflow: hidden;
             li{
                 overflow: hidden;
-                padding: 30px 0;
+                padding: 20px 0;
                 .cover {
                     background: url(../public/imgs/list_cover.png) no-repeat center/ 100% auto;
                     width: 260px;
@@ -251,6 +251,274 @@
                     background-image: url(../public/imgs/team_1.png);
                 }
             }
+        }
+    }
+    .plan{
+        background: #fff;
+        overflow: hidden;
+        padding: 50px 0;
+        .title{
+            background: url(../public/imgs/plan_title.png) no-repeat center/ auto 100%;
+            height: 60px;
+        }
+        .content{
+            width: 960px;
+            margin: 40px auto;
+            overflow: hidden;
+            li{
+                width: 48%;
+                float: left;
+                margin-right: 2%;
+                position: relative;
+                .nft{
+                    width: 220px;
+                    height: 315px;
+                    float: left;
+                    margin-right: 30px;
+                }
+                .description{
+                    h1{
+                        background: url(../public/imgs/plan_nft_title.png) no-repeat 250px center/auto 100%;
+                        height: 30px;
+                        margin-top: 20px;
+                    }
+                    p{
+                        font-size: 13px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding: 10px 0;
+                    }
+                    ul{
+                        background: #032562;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        color: #fff;
+                        padding: 15px 20px;
+                        li{
+                            font-size: 13px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+                &:nth-child(1){
+                    .nft{
+                        background: url(../public/imgs/plan_nft.png) no-repeat center/100% auto;
+                    }
+                }
+                &:nth-child(2) {
+                    float: right;
+                    .nft {
+                        background: url(../public/imgs/plan_nft_gamefi.png) no-repeat center/100% auto;
+                        float: right;
+                        margin-right: 0;
+                    }
+                    .description {
+                        margin-left: 40px;
+                        h1 {
+                            background: url(../public/imgs/plan_gamefi_title.png) no-repeat 0 center/auto 100%;
+                            height: 30px;
+                            margin-top: 20px;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            padding: 2px 0;
+                        }
+                    }
+                }
+                i{
+                    background: url(../public/imgs/plan_gap.png) no-repeat center/100% auto;
+                    width: 30px;
+                    height: 310px;
+                    position: absolute;
+                    top: 0;
+                    left: 475px;
+                }
+            }
+        }
+    }
+    .roadmap{
+        background: url(../public/imgs/roadmap_bg.jpg) no-repeat center/ 100% auto;
+        height: 580px;
+        overflow: hidden;
+        .title{
+            color: #ccfd0b;
+            font-size: 40px;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: 40px;
+        }
+        .content{
+            display: flex;
+            width: 940px;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 170px;
+            position: relative;
+            .content_start{
+                background: url(../public/imgs/roadmap_start.png) no-repeat center/ 100% auto;
+                width: 26px;
+                height: 26px;
+            }
+            .content_line{
+                background: url(../public/imgs/roadmap_line.png) no-repeat center/ 100% auto;
+                height: 10px;
+                width: 100%;
+                margin-left: -20px;
+            }
+            .content_end{
+                background: url(../public/imgs/roadmap_end.png) no-repeat center/ 100% auto;
+                width: 26px;
+                height: 26px;
+            }
+            ul{
+                position: absolute;
+                li{
+                    position: absolute;
+                    h1 {
+                        color: #ccfd0b;
+                    }
+
+                    h2 {
+                        color: #fff;
+                        font-size: 14px;
+                        white-space: nowrap;
+                    }
+                    &:nth-child(1){
+                        width: 160px;
+                        top: -130px;
+                        left: 40px;
+                        text-align: center;
+                        i {
+                            background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                            width: 10px;
+                            height: 80px;
+                            position: absolute;
+                            left: 75px;
+                            top: 60px;
+                        }
+                    }
+                    &:nth-child(2) {
+                        width: 160px;
+                        top: 60px;
+                        left: 150px;
+                        text-align: center;
+                        i {
+                            background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
+                                width: 10px;
+                                height: 80px;
+                                position: absolute;
+                                left: 75px;
+                                top: -70px;
+                        }
+                    }
+                    &:nth-child(3) {
+                        width: 160px;
+                        top: -130px;
+                        left: 260px;
+                        text-align: center;
+                        i {
+                            background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                            width: 10px;
+                            height: 80px;
+                            position: absolute;
+                            left: 75px;
+                            top: 60px;
+                        }
+                    }
+                    &:nth-child(4) {
+                        width: 160px;
+                        top: 60px;
+                        left: 380px;
+                        text-align: center;
+                        i {
+                            background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
+                            width: 10px;
+                            height: 80px;
+                            position: absolute;
+                            left: 75px;
+                            top: -70px;
+                        }
+                    }
+                    &:nth-child(5) {
+                        width: 160px;
+                        top: -130px;
+                        left: 530px;
+                        text-align: center;
+
+                        i {
+                            background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                            width: 10px;
+                            height: 80px;
+                            position: absolute;
+                            left: 75px;
+                            top: 60px;
+                        }
+                    }
+                    &:nth-child(6) {
+                        width: 160px;
+                        top: 60px;
+                        left: 690px;
+                        text-align: center;
+                        i {
+                            background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
+                            width: 10px;
+                            height: 80px;
+                            position: absolute;
+                            left: 75px;
+                            top: -70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .our_partner{
+        background: #fff;
+        overflow: hidden;
+        padding-bottom: 100px;
+        .title{
+            color:#404040;
+            font-size: 40px;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+            sans-serif;
+        }
+        .partners{
+            text-align: center;
+            width: 900px;
+            margin: 30px auto;
+            li{
+                display: inline-block;
+                width: 33%;
+                height: 50px;
+                margin: 20px 0;
+                &:nth-child(1){
+                    background: url(../public/imgs/icon_uber_eats.png) no-repeat center/auto 100%;
+                }
+                &:nth-child(2) {
+                    background: url(../public/imgs/icon_red_swiss.png) no-repeat center/auto 70%;
+                }
+                &:nth-child(3) {
+                    background: url(../public/imgs/icon_outlier_ventures.png) no-repeat center/auto 40%;
+                }
+                &:nth-child(4) {
+                    background: url(../public/imgs/icon_binance.png) no-repeat center/auto 140%;
+                }
+                &:nth-child(5) {
+                    background: url(../public/imgs/icon_okx.png) no-repeat center/auto 50%;
+                }
+                &:nth-child(6) {
+                    background: url(../public/imgs/icon_gate.png) no-repeat center/auto 60%;
+                }
+            }
+        }
+        .team{
+            background: url(../public/imgs/icon_team.png) no-repeat center/auto 100%;
+            height: 60px;
+            width: 900px;
+            margin: 0 auto;
         }
     }
 }

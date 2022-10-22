@@ -173,14 +173,88 @@ const Home = ({
                         </li>
                     </ul>
                 </section>
-                <section className={styles.our_teams}>
-                    <div className={styles.title}>our teams</div>
-                    <ul>
+                <section className={styles.plan}>
+                    <div className={styles.title}></div>
+                    <ul className={styles.content}>
+                        <li>
+                            <div className={styles.nft}></div>
+                            <div className={styles.description}>
+                                <h1></h1>
+                                <p>FFC依托整个法甲联盟发行，通过不断签约俱乐部和明星，进行正向反馈，实现整个法甲联盟的融合。未来将会发行以各球星和俱乐部为主的NFT以及足球周边NFT。</p>
+                                <ul>
+                                    <li>1. 访问专属俱乐部，与球星在元宇宙中进行互动。</li>
+                                    <li>2. 获得参与FFC生态中Gamefi的权限赢取代币奖励。</li>
+                                    <li>3. 融合手中的NFT，有机会获取限定款NFT。</li>
+                                </ul>
+                            </div>
+                            <i></i>
+                        </li>
+                        <li>
+                            <div className={styles.nft}></div>
+                            <div className={styles.description}>
+                                <h1></h1>
+                                <p>将会是一款结合社交和元宇宙的Web3  足球。</p>
+                                <p>NFT将会是参与Gamefi的门票</p>
+                                <p>FFC将会是游戏过程中的燃料，将会不断消耗FFC，实现通缩。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section className={styles.roadmap}>
+                    <div className={styles.title}>ROADMAP</div>
+                    <div className={styles.content}>
+                        <i className={styles.content_start}></i>
+                        <i className={styles.content_line}></i>
+                        <i className={styles.content_end}></i>
+                        <ul>
+                            <li>
+                                <h1>Febuary 2022</h1>
+                                <h2>22年2月 正式启动</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>2023 Q1</h1>
+                                <h2>测试网上线</h2>
+                                <h2>NFT交易平台上线</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>October 2022</h1>
+                                <h2>部分签约俱乐部、球员披露</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>2023 Q2</h1>
+                                <h2>与知名体育品牌联名</h2>
+                                <h2>与知名VR厂商合作细节披露</h2>
+                                <h2>足球元宇宙上线</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>November 2022</h1>
+                                <h2>FFC上线头部交易所</h2>
+                                <h2>球星NFT上线</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>2023 Q3</h1>
+                                <h2>主网上线</h2>
+                                <i></i>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section className={styles.our_partner}>
+                    <div className={styles.title}>OUR PARTNER</div>
+                    <ul className={styles.partners}>
+                        <li></li>
+                        <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                     </ul>
+                    <div className={styles.team}></div>
                 </section>
             </main>
         </HeaderFooter>
