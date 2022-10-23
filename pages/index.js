@@ -97,8 +97,13 @@ const Home = ({
             <ToastContainer />
             <main className={styles.container}>
                 <section className={styles.solgen}>
-                    <div className={styles.player_left}></div>
+                    <div className={styles.player_left}>
+                    </div>
+                    <div className={styles.player_left_shadow1}></div>
+                    <div className={styles.player_left_shadow2}></div>
                     <div className={styles.player_right}></div>
+                    <div className={styles.player_right_shadow1}></div>
+                    <div className={styles.player_right_shadow2}></div>
                     <div className={styles.solgen_bottom_bg}></div>
                     <div className={styles.solgen_title}>
                         <p>FFC Fan Token</p>
@@ -187,11 +192,11 @@ const Home = ({
                             <div className={styles.nft}></div>
                             <div className={styles.description}>
                                 <h1></h1>
-                                <p>FFC依托整个法甲联盟发行，通过不断签约俱乐部和明星，进行正向反馈，实现整个法甲联盟的融合。未来将会发行以各球星和俱乐部为主的NFT以及足球周边NFT。</p>
+                                <p>FFC relies on the distribution of the whole French league, through the continuous signing of clubs and stars, positive feedback, to achieve the integration of the whole French league. In the future, NFTS featuring stars and clubs as well as football-related NFTS will be released.</p>
                                 <ul>
-                                    <li>1. 访问专属俱乐部，与球星在元宇宙中进行互动。</li>
-                                    <li>2. 获得参与FFC生态中Gamefi的权限赢取代币奖励。</li>
-                                    <li>3. 融合手中的NFT，有机会获取限定款NFT。</li>
+                                    <li>1. Visit exclusive clubs and interact with stars in the metaverse.</li>
+                                    <li>2. Gain access to Gamefi in the FFC ecosystem to win tokens.</li>
+                                    <li>3. Integrate the NFTS in your hands and have the opportunity to acquire limited NFTS.</li>
                                 </ul>
                             </div>
                             <i></i>
@@ -200,9 +205,9 @@ const Home = ({
                             <div className={styles.nft}></div>
                             <div className={styles.description}>
                                 <h1></h1>
-                                <p>将会是一款结合社交和元宇宙的Web3  足球。</p>
-                                <p>NFT将会是参与Gamefi的门票</p>
-                                <p>FFC将会是游戏过程中的燃料，将会不断消耗FFC，实现通缩。</p>
+                                <p>Will be a combination of social and metaverse Web3 football.</p>
+                                <p>NFTS will be the ticket to Gamefi</p>
+                                <p>FFC will be fuel for the duration of the game, which will consume FFC and deflate.</p>
                             </div>
                         </li>
                     </ul>
