@@ -379,6 +379,8 @@
             }
             ul{
                 position: absolute;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: .16rem /* 14/60 */ ;
                 li{
                     position: absolute;
                     h1 {
@@ -387,12 +389,12 @@
 
                     h2 {
                         color: #fff;
-                        font-size: .233333rem /* 14/60 */;
+                        font-size: .16rem /* 14/60 */;
                         white-space: nowrap;
                     }
                     &:nth-child(1){
                         width: 2.666667rem /* 160/60 */;
-                        top: -2.166667rem /* 130/60 */;
+                        top: -1.56rem /* 130/60 */;
                         left: .666667rem /* 40/60 */;
                         text-align: center;
                         i {
@@ -400,14 +402,14 @@
                             width: .166667rem /* 10/60 */;
                             height: 1.333333rem /* 80/60 */;
                             position: absolute;
-                            left: 1.25rem /* 75/60 */;
-                            top: 1rem /* 60/60 */;
+                            left: 0.85rem /* 75/60 */;
+                            top: 0.4rem /* 60/60 */;
                         }
                     }
                     &:nth-child(2) {
                         width: 2.666667rem /* 160/60 */;
                         top: 1rem /* 60/60 */;
-                        left: 2.5rem /* 150/60 */;
+                        left: 1.9rem /* 150/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
@@ -420,8 +422,8 @@
                     }
                     &:nth-child(3) {
                         width: 2.666667rem /* 160/60 */;
-                        top: -2.166667rem /* 130/60 */;
-                        left: 4.333333rem /* 260/60 */;
+                        top: -1.56rem /* 130/60 */;
+                        left: 3.6rem /* 260/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
@@ -429,13 +431,13 @@
                             height: 1.333333rem /* 80/60 */;
                             position: absolute;
                             left: 1.25rem /* 75/60 */;
-                            top: 1rem /* 60/60 */;
+                            top: 0.4rem /* 60/60 */;
                         }
                     }
                     &:nth-child(4) {
                         width: 2.666667rem /* 160/60 */;
                         top: 1rem /* 60/60 */;
-                        left: 6.333333rem /* 380/60 */;
+                        left: 5.9rem /* 380/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
@@ -448,8 +450,8 @@
                     }
                     &:nth-child(5) {
                         width: 2.666667rem /* 160/60 */;
-                        top: -2.166667rem /* 130/60 */;
-                        left: 8.833333rem /* 530/60 */;
+                        top: -1.56rem /* 130/60 */;
+                        left: 8rem /* 530/60 */;
                         text-align: center;
 
                         i {
@@ -458,13 +460,13 @@
                             height: 1.333333rem /* 80/60 */;
                             position: absolute;
                             left: 1.25rem /* 75/60 */;
-                            top: 1rem /* 60/60 */;
+                             top: 0.4rem/* 60/60 */;
                         }
                     }
                     &:nth-child(6) {
                         width: 2.666667rem /* 160/60 */;
                         top: 1rem /* 60/60 */;
-                        left: 11.5rem /* 690/60 */;
+                        left: 10.2rem /* 690/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
@@ -477,8 +479,8 @@
                     }
                     &:nth-child(7) {
                         width: 2.666667rem /* 160/60 */;
-                        top: -2.166667rem /* 130/60 */;
-                        left: 13.3rem /* 530/60 */
+                        top: -1.56rem /* 130/60 */;
+                        left: 12.4rem /* 530/60 */
                         ;
                         text-align: center;
 
@@ -488,7 +490,7 @@
                             height: 1.333333rem /* 80/60 */;
                             position: absolute;
                             left: 1.25rem /* 75/60 */;
-                            top: 1rem /* 60/60 */;
+                            top: 0.4rem /* 60/60 */;
                         }
                     }
                 }
