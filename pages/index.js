@@ -161,7 +161,7 @@ const Home = ({
                         <li>
                             <span className={styles.cover}></span>
                             <h1>Achraf Hakimi</h1>
-                            <p>Paris Saint-Germain's primary defender</p>
+                            <p>Paris Saint-Germain&apos;s primary defender</p>
                             <p>2018 FIFA World Cup with Real Madrid</p>
                         </li>
                         <li>
