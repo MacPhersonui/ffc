@@ -1,11 +1,11 @@
 .container {
-    width: 1200px;
+    width: 20rem /* 1200/60 */;
     margin: 0 auto;
     overflow: hidden;
-
+    font-size: .266667rem /* 16/60 */;
     .solgen {
         background: url(../public/imgs/solgen_bg.jpg) no-repeat center top/ 100% auto;
-        height: 674px;
+        height: 11.233333rem /* 674/60 */;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -14,131 +14,136 @@
         .solgen_title {
             color: #fef100;
             font-family: Impact;
-            font-size: 60px;
+            font-size: 1rem /* 60/60 */;
             text-align: center;
             line-height: 1em;
-            margin-top: -110px;
-            margin-bottom: 110px;
+            margin-top: -1.833333rem /* 110/60 */;
+            margin-bottom: 1.833333rem /* 110/60 */;
         }
 
         .solgen_subtitle {
             text-align: center;
             color: #fff;
             font-family: Impact;
-            font-size: 26px;
+            font-size: .433333rem /* 26/60 */;
             line-height: 1.5em;
         }
 
         .solgen_logo {
             background: url(../public/imgs/solgen_logo.png) no-repeat center/100% auto;
-            width: 80px;
-            height: 80px;
+            width: 1.333333rem /* 80/60 */;
+            height: 1.333333rem /* 80/60 */;
             position: absolute;
             left: 50%;
-            margin-left: -40px;
-            bottom: 120px;
+            margin-left: -.666667rem /* 40/60 */;
+            bottom: 2rem /* 120/60 */;
             z-index: 99;
         }
 
         .player_left {
             background: url(../public/imgs/player_left.png) no-repeat center/ 100% auto;
-            width: 410px;
-            height: 400px;
+            width: 6.833333rem /* 410/60 */;
+            height: 6.666667rem /* 400/60 */;
             position: absolute;
             left: 50%;
-            margin-left: -620px;
-            margin-top: -20px;
+            margin-left: -10.333333rem /* 620/60 */;
+            margin-top: -.333333rem /* 20/60 */;
         }
 
         .player_right {
             background: url(../public/imgs/player_right.png) no-repeat center/ 100% auto;
-            width: 410px;
-            height: 400px;
+            width: 6.833333rem /* 410/60 */;
+            height: 6.666667rem /* 400/60 */;
             position: absolute;
             left: 50%;
-            margin-left: 170px;
-            margin-top: -40px;
+            margin-left: 2.833333rem /* 170/60 */;
+            margin-top: -.666667rem /* 40/60 */;
         }
 
         .solgen_bottom_bg {
             background: url(../public/imgs/solgen_bottom_bg.png) no-repeat center/ 100% auto;
-            width: 1200px;
-            height: 246px;
+            width: 20rem /* 1200/60 */;
+            height: 4.1rem /* 246/60 */;
             position: absolute;
             z-index: 99;
-            bottom: 0px;
+            bottom: 0rem /* 0/60 */;
         }
 
         .solgen_token1 {
             background: url(../public/imgs/solgen_token_icon.png) no-repeat center/ 100% auto;
-            width: 45px;
-            height: 45px;
+            width: .75rem /* 45/60 */;
+            height: .75rem /* 45/60 */;
             position: absolute;
             left: 50%;
             z-index: 10000;
-            top: 485px;
-            margin-left: 210px;
+            top: 8.083333rem /* 485/60 */;
+            margin-left: 3.5rem /* 210/60 */;
         }
 
         .solgen_token2 {
             background: url(../public/imgs/solgen_token_icon2.png) no-repeat center/ 100% auto;
-            width: 65px;
-            height: 65px;
+            width: 1.083333rem /* 65/60 */;
+            height: 1.083333rem /* 65/60 */;
             position: absolute;
             left: 50%;
             z-index: 10000;
-            top: 440px;
-            margin-left: -500px;
+            top: 7.333333rem /* 440/60 */;
+            margin-left: -8.333333rem /* 500/60 */;
         }
     }
 
     .what_is_ffc {
         background: #fff;
-        padding: 0 150px 70px 150px;
+        padding: 0 2.5rem /* 150/60 */ 1.166667rem /* 70/60 */ 2.5rem /* 150/60 */;
         overflow: hidden;
         .title {
             text-align: center;
             position: relative;
             overflow: hidden;
-            padding-top: 70px;
-            padding-bottom: 20px;
+            padding-top: 1.166667rem /* 70/60 */;
+            padding-bottom: .333333rem /* 20/60 */;
+            font-family: Arial, Helvetica, sans-serif;
             h1 {
-                font-size: 80px;
+                font-size: 1.333333rem /* 80/60 */;
                 position: relative;
                 z-index: 9;
             }
 
             h2 {
-                font-size: 110px;
+                font-size: 1.833333rem /* 110/60 */;
                 position: absolute;
                 z-index: 8;
                 left: 50%;
                 color: #d8d8d8;
-                margin-left: -320px;
-                top: 20px;
+                margin-left: -5.333333rem /* 320/60 */;
+                top: .333333rem /* 20/60 */;
             }
             p{
                 color: #555;
                 line-height: 1.7em;
+                font-size: 16px;
             }
         }
         .list{
             overflow: hidden;
             li{
                 overflow: hidden;
-                padding: 20px 0;
+                padding: .333333rem /* 20/60 */ 0;
+                font-size: 16px;
+                line-height: 1.5em;
                 .cover {
                     background: url(../public/imgs/list_cover.png) no-repeat center/ 100% auto;
-                    width: 260px;
-                    height: 156px;
+                    width: 4.333333rem /* 260/60 */;
+                    height: 2.6rem /* 156/60 */;
                 }
                 .content {
                     overflow: hidden;
+                    font-family: Arial, Helvetica, sans-serif;
+
                     h1{
                         color: #069159;
-                        font-size: 30px;
-                        text-indent: 10px;
-                        margin-top: 0px;
+                        font-size: .5rem /* 30/60 */;
+                        margin-top: 0rem /* 0/60 */;
                         line-height: 2em;
                     }
                 }
@@ -146,21 +151,21 @@
                     .cover{
                         float: left;
                         background-image: url(../public/imgs/list_cover.png);
-                        margin-right: 40px;
+                        margin-right: .666667rem /* 40/60 */;
                     }
                 }
                 &:nth-child(2) {
                     .cover {
                         float: right;
                         background-image: url(../public/imgs/list_cover2.png);
-                        margin-right: 40px;
+                        margin-right: .666667rem /* 40/60 */;
                     }
                 }
                 &:nth-child(3) {
                     .cover {
                         float: left;
                         background-image: url(../public/imgs/list_cover.png);
-                        margin-right: 40px;
+                        margin-right: .666667rem /* 40/60 */;
                     }
                 }
             }
@@ -168,34 +173,34 @@
     }
     .the_best{
         background: url(../public/imgs/the_best_bg.jpg) no-repeat center/100% auto;
-        height: 580px;
+        height: 9.666667rem /* 580/60 */;
         overflow: hidden;
-        padding-top: 90px;
+        padding-top: 1.5rem /* 90/60 */;
         h1{
             text-align: center;
             color: #ccfd0b;
-            font-size: 30px;
+            font-size: .5rem /* 30/60 */;
         }
         ul{
             text-align: center;
             display: flex;
             justify-content: center;
-            margin-top: 60px;
+            margin-top: 1rem /* 60/60 */;
             li{
-                width: 200px;
-                margin: 0 20px;
+                width: 3.333333rem /* 200/60 */;
+                margin: 0 .333333rem /* 20/60 */;
                 .cover {
                     background: url(../public/imgs/player_1.png) no-repeat center/100% auto;
                     width: 100%;
-                    height: 270px;
+                    height: 4.5rem /* 270/60 */;
                     display: block;
                 }
                 h1{
                     color: #fff;
-                    font-size: 18px;
+                    font-size: .3rem /* 18/60 */;
                 }
                 p{
-                    font-size: 12px;
+                    font-size: .2rem /* 12/60 */;
                     color: #ccfd0b;
                 }
                 &:nth-child(1){
@@ -223,11 +228,11 @@
     }
     .our_teams{
         background: url(../public/imgs/our_team_bg.png) no-repeat center/100% auto;
-        height: 520px;
-        padding-top: 60px;
+        height: 8.666667rem /* 520/60 */;
+        padding-top: 1rem /* 60/60 */;
         .title{
             text-align: center;
-            font-size: 50px;
+            font-size: .833333rem /* 50/60 */;
             line-height: 3em;
         }
         ul{
@@ -235,9 +240,9 @@
             li{
                 background: url(../public/imgs/team_1.png) no-repeat center/100% auto;
                 display: inline-block;
-                width: 200px;
-                height: 200px;
-                margin: 0 20px;
+                width: 3.333333rem /* 200/60 */;
+                height: 3.333333rem /* 200/60 */;
+                margin: 0 .333333rem /* 20/60 */;
                 &:nth-child(1){
                     background-image: url(../public/imgs/team_1.png);
                 }
@@ -256,14 +261,14 @@
     .plan{
         background: #fff;
         overflow: hidden;
-        padding: 50px 0;
+        padding: .833333rem /* 50/60 */ 0;
         .title{
             background: url(../public/imgs/plan_title.png) no-repeat center/ auto 100%;
-            height: 60px;
+            height: 1rem /* 60/60 */;
         }
         .content{
-            width: 960px;
-            margin: 40px auto;
+            width: 16rem /* 960/60 */;
+            margin: .666667rem /* 40/60 */ auto;
             overflow: hidden;
             li{
                 width: 48%;
@@ -271,30 +276,30 @@
                 margin-right: 2%;
                 position: relative;
                 .nft{
-                    width: 220px;
-                    height: 315px;
+                    width: 3.666667rem /* 220/60 */;
+                    height: 5.25rem /* 315/60 */;
                     float: left;
-                    margin-right: 30px;
+                    margin-right: .5rem /* 30/60 */;
                 }
                 .description{
                     h1{
-                        background: url(../public/imgs/plan_nft_title.png) no-repeat 250px center/auto 100%;
-                        height: 30px;
-                        margin-top: 20px;
+                        background: url(../public/imgs/plan_nft_title.png) no-repeat 4.166667rem /* 250/60 */ center/auto 100%;
+                        height: .5rem /* 30/60 */;
+                        margin-top: .333333rem /* 20/60 */;
                     }
                     p{
-                        font-size: 13px;
+                        font-size: .216667rem /* 13/60 */;
                         font-family: Arial, Helvetica, sans-serif;
-                        padding: 10px 0;
+                        padding: .166667rem /* 10/60 */ 0;
                     }
                     ul{
                         background: #032562;
-                        border-radius: 5px;
+                        border-radius: .083333rem /* 5/60 */;
                         overflow: hidden;
                         color: #fff;
-                        padding: 15px 20px;
+                        padding: .25rem /* 15/60 */ .333333rem /* 20/60 */;
                         li{
-                            font-size: 13px;
+                            font-size: .216667rem /* 13/60 */;
                             font-family: Arial, Helvetica, sans-serif;
                             display: block;
                             width: 100%;
@@ -314,63 +319,63 @@
                         margin-right: 0;
                     }
                     .description {
-                        margin-left: 40px;
+                        margin-left: .666667rem /* 40/60 */;
                         h1 {
                             background: url(../public/imgs/plan_gamefi_title.png) no-repeat 0 center/auto 100%;
-                            height: 30px;
-                            margin-top: 20px;
-                            margin-bottom: 10px;
+                            height: .5rem /* 30/60 */;
+                            margin-top: .333333rem /* 20/60 */;
+                            margin-bottom: .166667rem /* 10/60 */;
                         }
                         p{
-                            padding: 2px 0;
+                            padding: .033333rem /* 2/60 */ 0;
                         }
                     }
                 }
                 i{
                     background: url(../public/imgs/plan_gap.png) no-repeat center/100% auto;
-                    width: 30px;
-                    height: 310px;
+                    width: .5rem /* 30/60 */;
+                    height: 5.166667rem /* 310/60 */;
                     position: absolute;
                     top: 0;
-                    left: 475px;
+                    left: 7.916667rem /* 475/60 */;
                 }
             }
         }
     }
     .roadmap{
         background: url(../public/imgs/roadmap_bg.jpg) no-repeat center/ 100% auto;
-        height: 580px;
+        height: 9.666667rem /* 580/60 */;
         overflow: hidden;
         .title{
             color: #ccfd0b;
-            font-size: 40px;
+            font-size: .666667rem /* 40/60 */;
             text-align: center;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin-top: 40px;
+            margin-top: .666667rem /* 40/60 */;
         }
         .content{
             display: flex;
-            width: 940px;
+            width: 15.666667rem /* 940/60 */;
             margin: 0 auto;
             justify-content: space-between;
             align-items: center;
-            margin-top: 170px;
+            margin-top: 2.833333rem /* 170/60 */;
             position: relative;
             .content_start{
                 background: url(../public/imgs/roadmap_start.png) no-repeat center/ 100% auto;
-                width: 26px;
-                height: 26px;
+                width: .433333rem /* 26/60 */;
+                height: .433333rem /* 26/60 */;
             }
             .content_line{
                 background: url(../public/imgs/roadmap_line.png) no-repeat center/ 100% auto;
-                height: 10px;
+                height: .166667rem /* 10/60 */;
                 width: 100%;
-                margin-left: -20px;
+                margin-left: -.333333rem /* 20/60 */;
             }
             .content_end{
                 background: url(../public/imgs/roadmap_end.png) no-repeat center/ 100% auto;
-                width: 26px;
-                height: 26px;
+                width: .433333rem /* 26/60 */;
+                height: .433333rem /* 26/60 */;
             }
             ul{
                 position: absolute;
@@ -382,92 +387,108 @@
 
                     h2 {
                         color: #fff;
-                        font-size: 14px;
+                        font-size: .233333rem /* 14/60 */;
                         white-space: nowrap;
                     }
                     &:nth-child(1){
-                        width: 160px;
-                        top: -130px;
-                        left: 40px;
+                        width: 2.666667rem /* 160/60 */;
+                        top: -2.166667rem /* 130/60 */;
+                        left: .666667rem /* 40/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
-                            width: 10px;
-                            height: 80px;
+                            width: .166667rem /* 10/60 */;
+                            height: 1.333333rem /* 80/60 */;
                             position: absolute;
-                            left: 75px;
-                            top: 60px;
+                            left: 1.25rem /* 75/60 */;
+                            top: 1rem /* 60/60 */;
                         }
                     }
                     &:nth-child(2) {
-                        width: 160px;
-                        top: 60px;
-                        left: 150px;
+                        width: 2.666667rem /* 160/60 */;
+                        top: 1rem /* 60/60 */;
+                        left: 2.5rem /* 150/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
-                                width: 10px;
-                                height: 80px;
+                                width: .166667rem /* 10/60 */;
+                                height: 1.333333rem /* 80/60 */;
                                 position: absolute;
-                                left: 75px;
-                                top: -70px;
+                                left: 1.25rem /* 75/60 */;
+                                top: -1.166667rem /* 70/60 */;
                         }
                     }
                     &:nth-child(3) {
-                        width: 160px;
-                        top: -130px;
-                        left: 260px;
+                        width: 2.666667rem /* 160/60 */;
+                        top: -2.166667rem /* 130/60 */;
+                        left: 4.333333rem /* 260/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
-                            width: 10px;
-                            height: 80px;
+                            width: .166667rem /* 10/60 */;
+                            height: 1.333333rem /* 80/60 */;
                             position: absolute;
-                            left: 75px;
-                            top: 60px;
+                            left: 1.25rem /* 75/60 */;
+                            top: 1rem /* 60/60 */;
                         }
                     }
                     &:nth-child(4) {
-                        width: 160px;
-                        top: 60px;
-                        left: 380px;
+                        width: 2.666667rem /* 160/60 */;
+                        top: 1rem /* 60/60 */;
+                        left: 6.333333rem /* 380/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
-                            width: 10px;
-                            height: 80px;
+                            width: .166667rem /* 10/60 */;
+                            height: 1.333333rem /* 80/60 */;
                             position: absolute;
-                            left: 75px;
-                            top: -70px;
+                            left: 1.25rem /* 75/60 */;
+                            top: -1.166667rem /* 70/60 */;
                         }
                     }
                     &:nth-child(5) {
-                        width: 160px;
-                        top: -130px;
-                        left: 530px;
+                        width: 2.666667rem /* 160/60 */;
+                        top: -2.166667rem /* 130/60 */;
+                        left: 8.833333rem /* 530/60 */;
                         text-align: center;
 
                         i {
                             background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
-                            width: 10px;
-                            height: 80px;
+                            width: .166667rem /* 10/60 */;
+                            height: 1.333333rem /* 80/60 */;
                             position: absolute;
-                            left: 75px;
-                            top: 60px;
+                            left: 1.25rem /* 75/60 */;
+                            top: 1rem /* 60/60 */;
                         }
                     }
                     &:nth-child(6) {
-                        width: 160px;
-                        top: 60px;
-                        left: 690px;
+                        width: 2.666667rem /* 160/60 */;
+                        top: 1rem /* 60/60 */;
+                        left: 11.5rem /* 690/60 */;
                         text-align: center;
                         i {
                             background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
-                            width: 10px;
-                            height: 80px;
+                            width: .166667rem /* 10/60 */;
+                            height: 1.333333rem /* 80/60 */;
                             position: absolute;
-                            left: 75px;
-                            top: -70px;
+                            left: 1.25rem /* 75/60 */;
+                            top: -1.166667rem /* 70/60 */;
+                        }
+                    }
+                    &:nth-child(7) {
+                        width: 2.666667rem /* 160/60 */;
+                        top: -2.166667rem /* 130/60 */;
+                        left: 13.3rem /* 530/60 */
+                        ;
+                        text-align: center;
+
+                        i {
+                            background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                            width: .166667rem /* 10/60 */;
+                            height: 1.333333rem /* 80/60 */;
+                            position: absolute;
+                            left: 1.25rem /* 75/60 */;
+                            top: 1rem /* 60/60 */;
                         }
                     }
                 }
@@ -477,23 +498,23 @@
     .our_partner{
         background: #fff;
         overflow: hidden;
-        padding-bottom: 100px;
+        padding-bottom: 1.666667rem /* 100/60 */;
         .title{
             color:#404040;
-            font-size: 40px;
+            font-size: .666667rem /* 40/60 */;
             text-align: center;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
             sans-serif;
         }
         .partners{
             text-align: center;
-            width: 900px;
-            margin: 30px auto;
+            width: 15rem /* 900/60 */;
+            margin: .5rem /* 30/60 */ auto;
             li{
                 display: inline-block;
                 width: 33%;
-                height: 50px;
-                margin: 20px 0;
+                height: .833333rem /* 50/60 */;
+                margin: .333333rem /* 20/60 */ 0;
                 &:nth-child(1){
                     background: url(../public/imgs/icon_uber_eats.png) no-repeat center/auto 100%;
                 }
@@ -516,8 +537,8 @@
         }
         .team{
             background: url(../public/imgs/icon_team.png) no-repeat center/auto 100%;
-            height: 60px;
-            width: 900px;
+            height: 1rem /* 60/60 */;
+            width: 15rem /* 900/60 */;
             margin: 0 auto;
         }
     }

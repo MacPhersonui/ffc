@@ -13,34 +13,35 @@
 }
 
 .header {
-    width: 1200px;
+    width: 20rem /* 1200/60 */;
     margin: 0 auto;
     position: relative;
     z-index: 999;
     overflow: hidden;
     .navbar {
-        padding: 22px 20px;
+        padding: .366667rem /* 22/60 */ .333333rem /* 20/60 */;
         .logo {
             background: url(../public/layout/logo.png) no-repeat center/100% auto;
             float: left;
-            width: 120px;
-            height: 40px;
+            width: 2rem /* 120/60 */;
+            height: .666667rem /* 40/60 */;
         }
         ul{
             float: left;
             font-family: Product;
-            margin-left: 40px;
+            margin-left: .666667rem /* 40/60 */;
             li{
                 display: inline-block;
-                font-size: 16px;
+                font-size: .266667rem /* 16/60 */;
                 color: #fff;
-                padding: 8px 25px;
-                margin: 0 10px;
+                padding: .133333rem /* 8/60 */ .416667rem /* 25/60 */;
+                margin: 0 .166667rem /* 10/60 */;
                 cursor: pointer;
-                border: 2px solid transparent;
-                border-radius: 35px;
+                border: .033333rem /* 2/60 */ solid transparent;
+                border-radius: .583333rem /* 35/60 */;
+                vertical-align: top;
                 &.active, &:hover{
-                    // border: 2px solid #fff;
+                    // border: .033333rem /* 2/60 */ solid #fff;
                     color: #ccfd0a;
                 }
             }
@@ -54,19 +55,19 @@
 .main{
     position: relative;
     overflow: hidden;
-    margin-top: -113px;
+    margin-top: -1.883333rem /* 113/60 */;
 }
 
 .footer{
-    font-size: 20px;
-    width: 1200px;
+    font-size: .333333rem /* 20/60 */;
+    width: 20rem /* 1200/60 */;
     margin: 0 auto;
     .copyright{
-        font-size: 14px;
+        font-size: .233333rem /* 14/60 */;
         color: #fff;
         overflow: hidden;
         background: #032562;
-        padding: 10px 20px;
+        padding: .166667rem /* 10/60 */ .333333rem /* 20/60 */;
         .inner{
             width: 100%;
             margin: 0 auto;

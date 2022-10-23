@@ -116,7 +116,7 @@ const Home = ({
                     <div className={styles.title}>
                         <h1>What is FFC</h1>
                         <h2>What is FFC</h2>
-                        <p>FFC是法甲联赛联合法国多家俱乐部联合打造的Web3生态产品。它包含了粉丝经济、NFT球星卡、足球链游、足球元宇宙等板块。最终，FFC将构建自己的Web3足球链上世界，让用户可以更好的体验足球游戏，俱乐部能收获更多的粉丝。建立足球世界的第一个元宇宙时代。</p>
+                        <p>France Football Club (FFC) is a Web3 ecological product jointly created by the Ligue 1 League and several French clubs. It includes many sectors, such as fan economy, NFT star cards, football chain games, and the football metaverse. The ultimate vision of FFC is to build its football world about the Web3 on-chain so that users can experience football games better, and the club will gain more users and jointly build the first football metaverse world with football fans.</p>
                     </div>
                     <ul className={styles.list}>
                         <li>
@@ -125,7 +125,7 @@ const Home = ({
                             }></span>
                             <span className={styles.content}>
                                 <h1>FFC TOKEN</h1>
-                                <p>FFC是法甲联赛联合法国多家俱乐部联合打造的Web3生态产品。它包含了粉丝经济、NFT球星卡、足球链游、足球元宇宙等板块。最终，FFC将构建自己的</p>
+                                <p>FFC Token is the only fan token officially authorized by the French Football League (referred to as Ligue 1). The official goal is to further enhance the interaction and two-way empowerment between football and fans through FFC Token to improve the widespread football culture worldwide and make more users fall in love with football. The governance scope of FFC Token will cover the NFT, GameFi, and the follow-up football metaverse world of FFC. Holders of the FFC will be the first generation of locals in the FFC football metaverse.</p>
                             </span>
                         </li>
                         <li>
@@ -133,8 +133,8 @@ const Home = ({
                                 styles.cover
                             }></span>
                             <span className={styles.content}>
-                                <h1>FFC TOKEN</h1>
-                                <p>FFC是法甲联赛联合法国多家俱乐部联合打造的Web3生态产品。它包含了粉丝经济、NFT球星卡、足球链游、足球元宇宙等板块。最终，FFC将构建自己的</p>
+                                <h1>FFC NFT</h1>
+                                <p>Relying on the official authorization of the French League, FFC will continue to sign new clubs and well-known stars and provide positive feedback to the FFC ecosystem to achieve the integration of the entire French League. In the future, FFC will issue NFTs and football-related NFT products based on stars and clubs, expand the FFC ecosystem, and enable users to gain more admission opportunities.</p>
                             </span>
                         </li>
                         <li>
@@ -142,34 +142,41 @@ const Home = ({
                                 styles.cover
                             }></span>
                             <span className={styles.content}>
-                                <h1>FFC TOKEN</h1>
-                                <p>FFC是法甲联赛联合法国多家俱乐部联合打造的Web3生态产品。它包含了粉丝经济、NFT球星卡、足球链游、足球元宇宙等板块。最终，FFC将构建自己的</p>
+                                <h1>FFC GameFi</h1>
+                                < p > GameFi is based on FFC ecology.It will be a Web3 football game that combines sports, social, and metaverse attributes.In this game, the NFT issued by FFC will serve as a ticket to participate in GameFi.FFC Token acts as the fuel in the game process and realizes the continuous deflation of FFC Token with the help of consumption in the game process. < /p>
                             </span>
                         </li>
                     </ul>
                 </section>
                 <section className={styles.the_best}>
-                    <h1>FFC足球大使</h1>
+                    <h1>FFC Football Ambassador</h1>
                     <ul>
                         <li>
                             <span className={styles.cover}></span>
                             <h1>Gianluigi Donnarumma</h1>
-                            <p>吉安路易吉·多纳鲁马</p>
+                            <p>2022 Qatar World Cup Italy national team members</p>
+                            <p>Former Paris Saint-Germain goalkeeper</p>
+                            <p>2021 Yassin Prize Winners</p>
                         </li>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Gianluigi Donnarumma</h1>
-                            <p>吉安路易吉·多纳鲁马</p>
+                            <h1>Achraf Hakimi</h1>
+                            <p>Paris Saint-Germain's primary defender</p>
+                            <p>2018 FIFA World Cup with Real Madrid</p>
                         </li>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Gianluigi Donnarumma</h1>
-                            <p>吉安路易吉·多纳鲁马</p>
+                            <h1>Marco Verratti</h1>
+                            <p>2022 Qatar World Cup Italy national team members</p>
+                            <p>Eight-time Ligue 1 trophy winner</p>
+                            <p>2021 European Championship with the Italian team</p>
                         </li>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Gianluigi Donnarumma</h1>
-                            <p>吉安路易吉·多纳鲁马</p>
+                            <h1>Lucas Hernández</h1>
+                            <p>2022 Qatar World France National Team Member</p>
+                            <p>2018 Europa League title with Atlético de Madrid</p>
+                            <p>2019 won the Bayern Munich three-peat</p>
                         </li>
                     </ul>
                 </section>
@@ -209,36 +216,42 @@ const Home = ({
                         <ul>
                             <li>
                                 <h1>Febuary 2022</h1>
-                                <h2>22年2月 正式启动</h2>
-                                <i></i>
-                            </li>
-                            <li>
-                                <h1>2023 Q1</h1>
-                                <h2>测试网上线</h2>
-                                <h2>NFT交易平台上线</h2>
+                                <h2>Start officially</h2>
                                 <i></i>
                             </li>
                             <li>
                                 <h1>October 2022</h1>
-                                <h2>部分签约俱乐部、球员披露</h2>
-                                <i></i>
-                            </li>
-                            <li>
-                                <h1>2023 Q2</h1>
-                                <h2>与知名体育品牌联名</h2>
-                                <h2>与知名VR厂商合作细节披露</h2>
-                                <h2>足球元宇宙上线</h2>
+                                <h2>Reveal some clubs and players we signed</h2>
                                 <i></i>
                             </li>
                             <li>
                                 <h1>November 2022</h1>
-                                <h2>FFC上线头部交易所</h2>
-                                <h2>球星NFT上线</h2>
+                                <h2>List FFC on top exchanges</h2>
+                                <h2>List star NFT</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>2023 Q3</h1>
-                                <h2>主网上线</h2>
+                                <h1>December 2022</h1>
+                                <h2>Reveal more clubs and players we signed</h2>
+                                <h2>Launch GameFi</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>Q1 2023</h1>
+                                <h2>Launch testnet</h2>
+                                <h2>Launch NFT trading platform</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>Q2 2023</h1>
+                                <h2>Co-brand with internationally renowned sports brands</h2>
+                                <h2>Reveal details of cooperation with well-known VR manufacturers </h2>
+                                <h2>Launch Football Metaverse</h2>
+                                <i></i>
+                            </li>
+                            <li>
+                                <h1>Q3 2023</h1>
+                                <h2>Launch mainnet</h2>
                                 <i></i>
                             </li>
                         </ul>

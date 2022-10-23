@@ -20,7 +20,7 @@ const Header = (props) => {
         t
     } = useTranslation('common')
     useEffect(async () => {
-        initNetWork()
+        // initNetWork()
     }, [])
 
     const initNetWork = async () => {

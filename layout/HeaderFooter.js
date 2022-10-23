@@ -13,7 +13,7 @@ const HeaderFooter = (props) => {
   return (
       <div className={styles.wrapper}>
         <Head>
-          <title>FFC</title>
+          <title>FFC - Build the first league in the Web3 world</title>
           <meta charSet="utf-8" />
           <meta name="renderer" content="webkit" />
           <meta name="author" content="FFC" />
@@ -27,6 +27,7 @@ const HeaderFooter = (props) => {
           <meta name="description" content="FFC" />
           <meta name="keywords" content="FFC" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+          <script async src="/js/viewport.js"></script>
           {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-24E5BG0T8G"></script> */}
           <script
             dangerouslySetInnerHTML={{
