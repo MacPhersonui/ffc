@@ -116,7 +116,7 @@
         .inner {
             width: 100%;
             margin: 0 auto;
-            line-height: 0.5rem;
+            line-height: 0.45rem;
             ul {
                 align-items: center;
                 display: inline-flex;
@@ -129,8 +129,8 @@
 
                     i {
                         display: inline-block;
-                        width: 26px;
-                        height: 26px;
+                        width: 20px;
+                        height: 20px;
 
                         &.twitter {
                             background: url(../public/imgs/icon_twitter.svg) no-repeat center;
