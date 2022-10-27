@@ -117,7 +117,7 @@ const Home = ({
                     <div className={styles.solgen_token1}></div>
                     <div className={styles.solgen_token2}></div>
                 </section>
-                <section className={styles.what_is_ffc}>
+                <section id="ffc" className={styles.what_is_ffc}>
                     <div className={styles.title}>
                         <h1>What is FFC</h1>
                         <h2>What is FFC</h2>
@@ -185,18 +185,18 @@ const Home = ({
                         </li>
                     </ul>
                 </section>
-                <section className={styles.plan}>
+                <section  id="nft"  className={styles.plan}>
                     <div className={styles.title}></div>
                     <ul className={styles.content}>
                         <li>
                             <div className={styles.nft}></div>
                             <div className={styles.description}>
                                 <h1></h1>
-                                <p>FFC relies on the distribution of the whole French league, through the continuous signing of clubs and stars, positive feedback, to achieve the integration of the whole French league. In the future, NFTS featuring stars and clubs as well as football-related NFTS will be released.</p>
+                                <p>Relying on the official authorization of the French League, FFC will continue to sign new clubs and well-known stars and provide positive feedback to the FFC ecosystem to achieve the integration of the entire French League. In the future, FFC will issue NFTs and football-related NFT products based on stars and clubs, expand the FFC ecosystem, and enable users to gain more admission opportunities.</p>
                                 <ul>
-                                    <li>1. Visit exclusive clubs and interact with stars in the metaverse.</li>
-                                    <li>2. Gain access to Gamefi in the FFC ecosystem to win tokens.</li>
-                                    <li>3. Integrate the NFTS in your hands and have the opportunity to acquire limited NFTS.</li>
+                                    <li>1. Access exclusive clubs and interact with stars in the metaverse.</li>
+                                    <li>2. Obtain the rights to enter Gamefi in the FFC ecosystem and get token rewards.</li>
+                                    <li>3. Integrate the NFT you hold and obtain the opportunity about the limited NFT.</li>
                                 </ul>
                             </div>
                             <i></i>
@@ -205,14 +205,14 @@ const Home = ({
                             <div className={styles.nft}></div>
                             <div className={styles.description}>
                                 <h1></h1>
-                                <p>Will be a combination of social and metaverse Web3 football.</p>
-                                <p>NFTS will be the ticket to Gamefi</p>
-                                <p>FFC will be fuel for the duration of the game, which will consume FFC and deflate.</p>
+                                <p>GameFi is based on FFC ecology. It will be a Web3 football game that combines sports, social, and metaverse attributes. </p>
+                                <p>In this game, the NFT issued by FFC will serve as a ticket to participate in GameFi.  </p>
+                                <p>FFC Token acts as the fuel in the game process and realizes the continuous deflation of FFC Token with the help of consumption in the game process. </p>
                             </div>
                         </li>
                     </ul>
                 </section>
-                <section className={styles.roadmap}>
+                <section id="roadmap" className={styles.roadmap}>
                     <div className={styles.title}>ROADMAP</div>
                     <div className={styles.content}>
                         <i className={styles.content_start}></i>

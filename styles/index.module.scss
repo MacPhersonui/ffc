@@ -594,6 +594,1001 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .container {
+        width: 20rem
+            /* 1200/60 */
+        ;
+        margin: 0 auto;
+        overflow: hidden;
+        font-size: .266667rem
+            /* 16/60 */
+        ;
+        font-family: Arial, Helvetica, sans-serif;
+
+        .solgen {
+            background: url(../public/imgs/solgen_bg.jpg) no-repeat center top/ 100% auto;
+            height: 18rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+
+            .solgen_title {
+                color: #fef100;
+                font-family: Impact;
+                font-size: 1.4rem
+                    /* 60/60 */
+                ;
+                text-align: center;
+                line-height: 1em;
+                margin-top: 0.36rem
+                    /* 110/60 */
+                ;
+                margin-bottom: 1.833333rem
+                    /* 110/60 */
+                ;
+            }
+
+            .solgen_subtitle {
+                text-align: center;
+                color: #fff;
+                font-family: Impact;
+                font-size: .6rem
+                    /* 26/60 */
+                ;
+                line-height: 1.5em;
+            }
+
+            .solgen_logo {
+                background: url(../public/imgs/solgen_logo.png) no-repeat center/100% auto;
+                width: 3rem;
+                height: 3rem;
+                position: absolute;
+                left: 50%;
+                margin-left: -1.5rem;
+                bottom: 2.1rem;
+                z-index: 99;
+                animation: shadow 5s cubic-bezier(.5, .2, .8, .8) infinite alternate;
+            }
+
+            .player_left {
+                background: url(../public/imgs/player_left.png) no-repeat center/ 100% auto;
+                width: 11rem;
+                height: 11rem;
+                position: absolute;
+                left: 50%;
+                margin-left: -14.333333rem;
+                margin-top: -0.333333rem;
+                z-index: 10;
+            }
+
+            .player_left_shadow1 {
+                background: url(../public/imgs/player_left_shadow1.png) no-repeat center/100% auto;
+                position: absolute;
+                left: 50%;
+                margin-left: -14.55rem;
+                margin-top: -0.333333rem;
+                z-index: 9;
+                width: 11rem;
+                height: 11rem;
+            }
+
+            .player_left_shadow2 {
+                background: url(../public/imgs/player_left_shadow2.png) no-repeat center/100% auto;
+                width: 11rem;
+                height: 11rem;
+                position: absolute;
+                left: 50%;
+                margin-left: -14.8rem;
+                margin-top: -.333333rem;
+                z-index: 8;
+            }
+
+            .player_right {
+                background: url(../public/imgs/player_right.png) no-repeat center/ 100% auto;
+                width: 10.833333rem;
+                height: 11rem;
+                position: absolute;
+                left: 50%;
+                margin-left: 2rem;
+                margin-top: -0.666667rem;
+                z-index: 10;
+            }
+
+            .player_right_shadow1 {
+                background: url(../public/imgs/player_right_shadow1.png) no-repeat center/ 100% auto;
+                    margin-left: 2.2rem;
+                    margin-top: -0.666667rem;
+                    z-index: 9;
+                    width: 10.833333rem;
+                    height: 11rem;
+            }
+
+            .player_right_shadow2 {
+                background: url(../public/imgs/player_right_shadow2.png) no-repeat center/ 100% auto;
+                margin-left: 2.4rem;
+                margin-top: -0.666667rem;
+                width: 10.833333rem;
+                height: 11rem;
+                z-index: 8;
+            }
+
+            .solgen_bottom_bg {
+                background: url(../public/imgs/solgen_bottom_bg.png) no-repeat center/ 100% auto;
+                width: 20rem
+                    /* 1200/60 */
+                ;
+                height: 4.1rem
+                    /* 246/60 */
+                ;
+                position: absolute;
+                z-index: 99;
+                bottom: 1rem
+                    /* 0/60 */
+                ;
+            }
+
+            .solgen_token1 {
+                background: url(../public/imgs/solgen_token_icon.png) no-repeat center/ 100% auto;
+                width: .75rem
+                    /* 45/60 */
+                ;
+                height: .75rem
+                    /* 45/60 */
+                ;
+                position: absolute;
+                left: 50%;
+                z-index: 10000;
+                top: 8.083333rem
+                    /* 485/60 */
+                ;
+                margin-left: 3.5rem
+                    /* 210/60 */
+                ;
+                animation: bounce 5s cubic-bezier(.5, .2, .8, .8) infinite alternate;
+            }
+
+            .solgen_token2 {
+                background: url(../public/imgs/solgen_token_icon2.png) no-repeat center/ 100% auto;
+                width: 1.083333rem
+                    /* 65/60 */
+                ;
+                height: 1.2rem
+                    /* 65/60 */
+                ;
+                position: absolute;
+                left: 50%;
+                z-index: 10000;
+                top: 7.333333rem
+                    /* 440/60 */
+                ;
+                margin-left: -8.333333rem
+                    /* 500/60 */
+                ;
+                animation: bounce 8s cubic-bezier(.5, .2, .8, .8) infinite alternate;
+            }
+        }
+
+        .what_is_ffc {
+            background: #fff;
+            padding: 0 2.5rem
+                /* 150/60 */
+                1.166667rem
+                /* 70/60 */
+                2.5rem
+                /* 150/60 */
+            ;
+            overflow: hidden;
+
+            .title {
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                padding-top: 1.166667rem
+                    /* 70/60 */
+                ;
+                padding-bottom: .333333rem
+                    /* 20/60 */
+                ;
+
+                h1 {
+                    font-size: 1.5rem
+                        /* 80/60 */
+                    ;
+                    position: relative;
+                    z-index: 9;
+                }
+
+                h2 {
+                    font-size: 1.833333rem
+                        /* 110/60 */
+                    ;
+                    position: absolute;
+                    z-index: 8;
+                    left: 50%;
+                    color: #d8d8d8;
+                    margin-left: -5.333333rem
+                        /* 320/60 */
+                    ;
+                    top: .333333rem
+                        /* 20/60 */
+                    ;
+                }
+
+                p {
+                    color: #555;
+                    line-height: 1.7em;
+                    font-size: 14px;
+                }
+            }
+
+            .list {
+                overflow: hidden;
+
+                li {
+                    overflow: hidden;
+                    padding: .333333rem
+                        /* 20/60 */
+                        0;
+                    font-size: 16px;
+                    line-height: 1.5em;
+
+                    .cover {
+                        background: url(../public/imgs/list_cover.png) no-repeat center/ auto 100%;
+                        width: 100%;
+                        height: 8rem;
+                    }
+
+                    .content {
+                        overflow: hidden;
+
+
+                        h1 {
+                            color: #069159;
+                            font-size: 1.3rem
+                                /* 30/60 */
+                            ;
+                            margin-top: 0rem
+                                /* 0/60 */
+                            ;
+                            line-height: 2em;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+
+                    &:nth-child(1) {
+                        .cover {
+                            float: left;
+                            background-image: url(../public/imgs/list_cover.png);
+                            margin-right: .666667rem
+                                /* 40/60 */
+                            ;
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .cover {
+                            float: right;
+                            background-image: url(../public/imgs/list_cover2.png);
+                            margin-right: .666667rem
+                                /* 40/60 */
+                            ;
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        .cover {
+                            float: left;
+                            background-image: url(../public/imgs/list_cover.png);
+                            margin-right: .666667rem
+                                /* 40/60 */
+                            ;
+                        }
+                    }
+                }
+            }
+        }
+
+        .the_best {
+            background: url(../public/imgs/the_best_bg.jpg) no-repeat center/100% auto;
+            height: 26rem
+                /* 580/60 */
+            ;
+            overflow: hidden;
+            padding-top: 1.5rem
+                /* 90/60 */
+            ;
+
+            h1 {
+                text-align: center;
+                color: #ccfd0b;
+                font-size: 1rem
+                    /* 30/60 */
+                ;
+            }
+
+            ul {
+                 display: flex;
+                 justify-content: center;
+                 margin-top: 1rem;
+                 flex-wrap: wrap;
+
+                li {
+                      width: 6.333333rem;
+                      margin: 0 0.333333rem;
+
+                    .cover {
+                        background: url(../public/imgs/player_1.png) no-repeat center/100% auto;
+                        width: 100%;
+                        height:8.1rem
+                            /* 270/60 */
+                        ;
+                        display: block;
+                    }
+
+                    h1 {
+                        color: #fff;
+                        font-size: .6rem
+                            /* 18/60 */
+                        ;
+                    }
+
+                    p {
+                        font-size: .3rem
+                            /* 12/60 */
+                        ;
+                        color: #ccfd0b;
+                    }
+
+                    &:nth-child(1) {
+                        .cover {
+                            background-image: url(../public/imgs/player_1.png);
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .cover {
+                            background-image: url(../public/imgs/player_2.png);
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        .cover {
+                            background-image: url(../public/imgs/player_3.png);
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        .cover {
+                            background-image: url(../public/imgs/player_4.png);
+                        }
+                    }
+                }
+            }
+        }
+
+        .our_teams {
+            background: url(../public/imgs/our_team_bg.png) no-repeat center/100% auto;
+            height: 8.666667rem
+                /* 520/60 */
+            ;
+            padding-top: 1rem
+                /* 60/60 */
+            ;
+
+            .title {
+                text-align: center;
+                font-size: .833333rem
+                    /* 50/60 */
+                ;
+                line-height: 3em;
+            }
+
+            ul {
+                text-align: center;
+
+                li {
+                    background: url(../public/imgs/team_1.png) no-repeat center/100% auto;
+                    display: inline-block;
+                    width: 3.333333rem
+                        /* 200/60 */
+                    ;
+                    height: 3.333333rem
+                        /* 200/60 */
+                    ;
+                    margin: 0 .333333rem
+                        /* 20/60 */
+                    ;
+
+                    &:nth-child(1) {
+                        background-image: url(../public/imgs/team_1.png);
+                    }
+
+                    &:nth-child(2) {
+                        background-image: url(../public/imgs/team_1.png);
+                    }
+
+                    &:nth-child(3) {
+                        background-image: url(../public/imgs/team_1.png);
+                    }
+
+                    &:nth-child(4) {
+                        background-image: url(../public/imgs/team_1.png);
+                    }
+                }
+            }
+        }
+
+        .plan {
+            background: #fff;
+            overflow: hidden;
+            padding: .833333rem
+                /* 50/60 */
+                0;
+
+            .title {
+                background: url(../public/imgs/plan_title.png) no-repeat center/ auto 100%;
+                height: 2rem;
+            }
+
+            .content {
+                width: 16rem
+                    /* 960/60 */
+                ;
+                margin: .666667rem
+                    /* 40/60 */
+                    auto;
+                overflow: hidden;
+
+                li {
+                    width: 100%;
+                    float: left;
+                    margin-right: 2%;
+                    position: relative;
+                    margin-bottom: 1rem;
+
+                    .nft {
+                       width: 7.666667rem;
+                       height: 11.25rem;
+                        float: left;
+                        margin-right: .5rem
+                            /* 30/60 */
+                        ;
+                    }
+
+                    .description {
+                        h1 {
+                            background: url(../public/imgs/plan_nft_title.png) no-repeat 8.166667rem center/auto 100%;
+                            height: 1rem;
+                            margin-top: 0.333333rem;
+                            }
+
+                        p {
+                            font-size: 0.4rem;
+                            line-height: 1.3em;
+                            padding: .166667rem
+                                /* 10/60 */
+                                0;
+                        }
+
+                        ul {
+                            background: #032562;
+                            border-radius: 0.3rem
+                                /* 5/60 */
+                            ;
+                            overflow: hidden;
+                            color: #fff;
+                            padding: .25rem
+                                /* 15/60 */
+                                .333333rem
+                                /* 20/60 */
+                            ;
+
+                            li {
+                                font-size: 0.4rem;
+                                line-height: 1.3em;
+                                display: block;
+                                width: 100%;
+                                margin-bottom:0;
+                            }
+                        }
+                    }
+
+                    &:nth-child(1) {
+                        .nft {
+                            background: url(../public/imgs/plan_nft.png) no-repeat center/100% auto;
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        float: right;
+
+                        .nft {
+                            background: url(../public/imgs/plan_nft_gamefi.png) no-repeat center/100% auto;
+                            float: right;
+                            margin-right: 0;
+                        }
+
+                        .description {
+                            margin-left: .666667rem
+                                /* 40/60 */
+                            ;
+
+                            h1 {
+                                background: url(../public/imgs/plan_gamefi_title.png) no-repeat 0 center/auto 100%;
+                                height: 1rem;
+                                    /* 30/60 */
+                                ;
+                                margin-top: .333333rem
+                                    /* 20/60 */
+                                ;
+                                margin-bottom: .166667rem
+                                    /* 10/60 */
+                                ;
+                            }
+
+                            p {
+                                padding: .033333rem
+                                    /* 2/60 */
+                                    0;
+                            }
+                        }
+                    }
+
+                    i {
+                        background: url(../public/imgs/plan_gap.png) no-repeat center/100% auto;
+                        width: .5rem
+                            /* 30/60 */
+                        ;
+                        height: 5.166667rem
+                            /* 310/60 */
+                        ;
+                        position: absolute;
+                        top: 0;
+                        left: 7.916667rem
+                            /* 475/60 */
+                        ;
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .roadmap {
+            background: url(../public/imgs/roadmap_bg.jpg) no-repeat center/cover;
+            height: 39rem
+                /* 580/60 */
+            ;
+            overflow: hidden;
+
+            .title {
+                color: #ccfd0b;
+                font-size:1.3rem
+                    /* 40/60 */
+                ;
+                text-align: center;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: .666667rem
+                    /* 40/60 */
+                ;
+            }
+
+            .content {
+                transform: rotateZ(90deg) scale(1.5);
+                display: flex;
+                width: 15.666667rem
+                    /* 940/60 */
+                ;
+                margin: 0 auto;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 12.833333rem
+                    /* 170/60 */
+                ;
+                position: relative;
+
+                .content_start {
+                    background: url(../public/imgs/roadmap_start.png) no-repeat center/ 100% auto;
+                    width: .433333rem
+                        /* 26/60 */
+                    ;
+                    height: .433333rem
+                        /* 26/60 */
+                    ;
+                }
+
+                .content_line {
+                    background: url(../public/imgs/roadmap_line.png) no-repeat center/ 100% auto;
+                    height: .166667rem
+                        /* 10/60 */
+                    ;
+                    width: 100%;
+                    margin-left: -.333333rem
+                        /* 20/60 */
+                    ;
+                }
+
+                .content_end {
+                    background: url(../public/imgs/roadmap_end.png) no-repeat center/ 100% auto;
+                    width: .433333rem
+                        /* 26/60 */
+                    ;
+                    height: .433333rem
+                        /* 26/60 */
+                    ;
+                }
+
+                ul {
+                    position: absolute;
+
+                    font-size: .16rem
+                        /* 14/60 */
+                    ;
+
+                    li {
+                        position: absolute;
+                        h1 {
+                            color: #ccfd0b;
+                            font-size: .3rem;
+                            margin-left: 0.5rem;
+                            margin-top: -1.5rem;
+                                    writing-mode: vertical-lr;
+                                    transform: rotateY(180deg) rotateX(180deg);
+                        }
+
+                        h2 {
+                            color: #fff;
+                            font-size: .3rem
+                                /* 14/60 */
+                            ;
+                            margin-left: 1rem;
+                            margin-top: -1.8rem;
+                            white-space: nowrap;
+                                    writing-mode: vertical-lr;
+                                    transform: rotateY(180deg) rotateX(180deg);
+                        }
+                        &:nth-child(even){
+                            text-align: right !important;
+                            height: 2.3rem;
+                            h1{
+                                margin-top: 0.3rem;
+                                margin-left: 1rem;
+                                white-space: nowrap !important;
+                            }
+                            h2{
+                                margin-left: 1.5rem;
+                                white-space: normal !important;
+                                
+                            }
+                        }
+                        &:nth-child(odd) {
+                            height: 2.3rem;
+                            text-align: left !important;
+                        }
+
+                        &:nth-child(1) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: -1.56rem
+                                /* 130/60 */
+                            ;
+                            left: .666667rem
+                                /* 40/60 */
+                            ;
+                            text-align: center;
+
+                            i {
+                                background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 0.85rem
+                                    /* 75/60 */
+                                ;
+                                top: 0.4rem
+                                    /* 60/60 */
+                                ;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: 1rem
+                                /* 60/60 */
+                            ;
+                            left: 1.9rem
+                                /* 150/60 */
+                            ;
+                            text-align: center;
+
+                            i {
+                                background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 1.25rem
+                                    /* 75/60 */
+                                ;
+                                top: -1.166667rem
+                                    /* 70/60 */
+                                ;
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: -1.56rem
+                                /* 130/60 */
+                            ;
+                            left: 3.6rem
+                                /* 260/60 */
+                            ;
+                            text-align: center;
+                            h2{
+                                &:nth-child(1){
+                                    margin-left: 0.5rem;
+                                }
+                                &:nth-child(2) {
+                                    margin-left: 1.5rem;
+                                    margin-top: -3.8rem;
+                                }
+                            }
+
+                            i {
+                                background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 1.25rem
+                                    /* 75/60 */
+                                ;
+                                top: 0.4rem
+                                    /* 60/60 */
+                                ;
+                            }
+                        }
+
+                        &:nth-child(4) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: 1rem
+                                /* 60/60 */
+                            ;
+                            left: 5.9rem
+                                /* 380/60 */
+                            ;
+                            text-align: center;
+
+                            i {
+                                background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 1.25rem
+                                    /* 75/60 */
+                                ;
+                                top: -1.166667rem
+                                    /* 70/60 */
+                                ;
+                            }
+                        }
+
+                        &:nth-child(5) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: -1.56rem
+                                /* 130/60 */
+                            ;
+                            left: 8rem
+                                /* 530/60 */
+                            ;
+                            text-align: center;
+                            h2 {
+                                
+                                &:nth-child(2) {
+                                    margin-left: 1.5rem;
+                                    margin-top: -3.8rem;
+                                }
+                                &:nth-child(3) {
+                                    margin-left: 1rem;
+                                    margin-top: -1.9rem;
+                                }
+                            }
+                            i {
+                                background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 1.25rem
+                                    /* 75/60 */
+                                ;
+                                top: 0.4rem
+                                    /* 60/60 */
+                                ;
+                            }
+                        }
+
+                        &:nth-child(6) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: 1rem
+                                /* 60/60 */
+                            ;
+                            left: 10.2rem
+                                /* 690/60 */
+                            ;
+                            text-align: center;
+                            h2 {
+
+                                &:nth-child(2) {
+                                    margin-left: 1.5rem;
+                                    margin-top: -1.2rem;
+                                }
+
+                                &:nth-child(3) {
+                                    margin-left: 2.6rem;
+                                    margin-top: -3.5rem;
+                                }
+                                &:nth-child(4) {
+                                    margin-left: 3.4rem;
+                                    margin-top: -5.7rem;
+                                }
+                            }
+                            i {
+                                background: url(../public/imgs/roadmap_bottom_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 1.25rem
+                                    /* 75/60 */
+                                ;
+                                top: -1.166667rem
+                                    /* 70/60 */
+                                ;
+                            }
+                        }
+
+                        &:nth-child(7) {
+                            width: 2.666667rem
+                                /* 160/60 */
+                            ;
+                            top: -1.56rem
+                                /* 130/60 */
+                            ;
+                            left: 12.4rem
+                                /* 530/60 */
+                            ;
+                            text-align: center;
+
+                            i {
+                                background: url(../public/imgs/roadmap_top_line.png) no-repeat center/ 100% auto;
+                                width: .166667rem
+                                    /* 10/60 */
+                                ;
+                                height: 1.333333rem
+                                    /* 80/60 */
+                                ;
+                                position: absolute;
+                                left: 1.25rem
+                                    /* 75/60 */
+                                ;
+                                top: 0.4rem
+                                    /* 60/60 */
+                                ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .our_partner {
+            background: #fff;
+            overflow: hidden;
+            padding-bottom: 1.666667rem
+                /* 100/60 */
+            ;
+                margin-top: -8rem;
+            .title {
+                color: #404040;
+                font-size: 1.3rem;
+                    /* 40/60 */
+                ;
+                text-align: center;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+                    sans-serif;
+            }
+
+            .partners {
+                text-align: center;
+                width: 15rem
+                    /* 900/60 */
+                ;
+                margin: .5rem
+                    /* 30/60 */
+                    auto;
+
+                li {
+                    display: inline-block;
+                    width: 50%;
+                    height: 1.833333rem;
+                    margin: 0.333333rem 0;
+
+                    &:nth-child(1) {
+                        background: url(../public/imgs/icon_uber_eats.png) no-repeat center/auto 100%;
+                    }
+
+                    &:nth-child(2) {
+                        background: url(../public/imgs/icon_red_swiss.png) no-repeat center/auto 70%;
+                    }
+
+                    &:nth-child(3) {
+                        background: url(../public/imgs/icon_outlier_ventures.png) no-repeat center/auto 40%;
+                    }
+
+                    &:nth-child(4) {
+                        background: url(../public/imgs/icon_binance.png) no-repeat center/auto 140%;
+                    }
+
+                    &:nth-child(5) {
+                        background: url(../public/imgs/icon_okx.png) no-repeat center/auto 50%;
+                    }
+
+                    &:nth-child(6) {
+                        background: url(../public/imgs/icon_gate.png) no-repeat center/auto 60%;
+                    }
+                }
+            }
+
+            .team {
+                background: url(../public/imgs/icon_team.png) no-repeat center/auto 100%;
+                height: 1rem
+                    /* 60/60 */
+                ;
+                width: 15rem
+                    /* 900/60 */
+                ;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
 @keyframes bounce {
     0% {
         margin-top: 0;

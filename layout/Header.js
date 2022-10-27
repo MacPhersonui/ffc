@@ -53,13 +53,13 @@ const Header = (props) => {
                 <i className={styles.logo}></i>
                 <ul>
                     <Link href="/"><li className={styles.active}>Home</li></Link>
-                    <Link href="/"><li>NFT</li></Link>
-                    <Link href="/"><li>GameFi</li></Link>
-                    <Link href="/"><li>About US</li></Link>
+                    <Link href="/#ffc"><li>FFC</li></Link>
+                    <Link href="/#nft"><li>NFT & GameFi</li></Link>
+                    <Link href="/#roadmap"><li>ROADMAP</li></Link>
                 </ul>
-                <div className={styles.wallet}>
+                {/* <div className={styles.wallet}>
                     <Wallet />
-                </div>
+                </div> */}
             </nav>
             {/* <div className={styles.locale}>
                 <Link
