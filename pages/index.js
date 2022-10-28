@@ -106,12 +106,12 @@ const Home = ({
                     <div className={styles.player_right_shadow2}></div>
                     <div className={styles.solgen_bottom_bg}></div>
                     <div className={styles.solgen_title}>
-                        <p>FFC Fan Token</p>
-                        <p>To Web3</p>
+                        <p>{t('ffc')}</p>
+                        <p>{t('to_web3')}</p>
                     </div>
                     <div className={styles.solgen_subtitle}>
-                        <p>Build the first league</p>
-                        <p>in the Web3 world</p>
+                        <p>{t('build_the_first_league')}</p>
+                        <p>{t('in_the_web3_world')}</p>
                     </div>
                     <div className={styles.solgen_logo}></div>
                     <div className={styles.solgen_token1}></div>
@@ -119,9 +119,9 @@ const Home = ({
                 </section>
                 <section id="ffc" className={styles.what_is_ffc}>
                     <div className={styles.title}>
-                        <h1>What is FFC</h1>
-                        <h2>What is FFC</h2>
-                        <p>France Football Club (FFC) is a Web3 ecological product jointly created by the Ligue 1 League and several French clubs. It includes many sectors, such as fan economy, NFT star cards, football chain games, and the football metaverse. The ultimate vision of FFC is to build its football world about the Web3 on-chain so that users can experience football games better, and the club will gain more users and jointly build the first football metaverse world with football fans.</p>
+                        <h1>{t('what_is_ffc')}</h1>
+                        <h2>{t('what_is_ffc')}</h2>
+                        <p>{t('what_is_ffc_content')}</p>
                     </div>
                     <ul className={styles.list}>
                         <li>
@@ -129,8 +129,8 @@ const Home = ({
                                 styles.cover
                             }></span>
                             <span className={styles.content}>
-                                <h1>FFC TOKEN</h1>
-                                <p>FFC Token is the only fan token officially authorized by the French Football League (referred to as Ligue 1). The official goal is to further enhance the interaction and two-way empowerment between football and fans through FFC Token to improve the widespread football culture worldwide and make more users fall in love with football. The governance scope of FFC Token will cover the NFT, GameFi, and the follow-up football metaverse world of FFC. Holders of the FFC will be the first generation of locals in the FFC football metaverse.</p>
+                                <h1>{t('ffc_token')}</h1>
+                                <p>{t('ffc_token_content')}</p>
                             </span>
                         </li>
                         <li>
@@ -138,8 +138,8 @@ const Home = ({
                                 styles.cover
                             }></span>
                             <span className={styles.content}>
-                                <h1>FFC NFT</h1>
-                                <p>Relying on the official authorization of the French League, FFC will continue to sign new clubs and well-known stars and provide positive feedback to the FFC ecosystem to achieve the integration of the entire French League. In the future, FFC will issue NFTs and football-related NFT products based on stars and clubs, expand the FFC ecosystem, and enable users to gain more admission opportunities.</p>
+                                <h1>{t('ffc_nft')}</h1>
+                                <p>{t('ffc_nft_content')}</p>
                             </span>
                         </li>
                         <li>
@@ -147,41 +147,41 @@ const Home = ({
                                 styles.cover
                             }></span>
                             <span className={styles.content}>
-                                <h1>FFC GameFi</h1>
-                                < p > GameFi is based on FFC ecology.It will be a Web3 football game that combines sports, social, and metaverse attributes.In this game, the NFT issued by FFC will serve as a ticket to participate in GameFi.FFC Token acts as the fuel in the game process and realizes the continuous deflation of FFC Token with the help of consumption in the game process. < /p>
+                                <h1>{t('ffc_gamefi')}</h1>
+                                <p>{t('ffc_gamefi_content')} </p>
                             </span>
                         </li>
                     </ul>
                 </section>
                 <section className={styles.the_best}>
-                    <h1>FFC Football Ambassador</h1>
+                    <h1>{t('ffc_football_ambassador')}</h1>
                     <ul>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Gianluigi Donnarumma</h1>
-                            <p>2022 Qatar World Cup Italy national team members</p>
-                            <p>Former Paris Saint-Germain goalkeeper</p>
-                            <p>2021 Yassin Prize Winners</p>
+                            <h1>{t("gianluigi_donnarumma")}</h1>
+                            <p>{t("gianluigi_donnarumma_content1")}</p>
+                            <p>{t("gianluigi_donnarumma_content2")}</p>
+                            <p>{t("gianluigi_donnarumma_content3")}</p>
                         </li>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Achraf Hakimi</h1>
-                            <p>Paris Saint-Germain&apos;s primary defender</p>
-                            <p>2018 FIFA World Cup with Real Madrid</p>
+                            <h1>{t("achraf_hakimi")}</h1>
+                            <p>{t("achraf_hakimi_content1")}</p>
+                            <p>{t("achraf_hakimi_content2")}</p>
                         </li>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Marco Verratti</h1>
-                            <p>2022 Qatar World Cup Italy national team members</p>
-                            <p>Eight-time Ligue 1 trophy winner</p>
-                            <p>2021 European Championship with the Italian team</p>
+                            <h1>{t("marco_verratti")}</h1>
+                            <p>{t('marco_verratti_content1')}</p>
+                            <p>{t('marco_verratti_content2')}</p>
+                            <p>{t('marco_verratti_content3')}</p>
                         </li>
                         <li>
                             <span className={styles.cover}></span>
-                            <h1>Lucas Hernández</h1>
-                            <p>2022 Qatar World France National Team Member</p>
-                            <p>2018 Europa League title with Atlético de Madrid</p>
-                            <p>2019 won the Bayern Munich three-peat</p>
+                            <h1>{t('lucas_hernández')}</h1>
+                            <p>{t('lucas_hernández_content1')}</p>
+                            <p>{t('lucas_hernández_content2')}</p>
+                            <p>{t('lucas_hernández_content3')}</p>
                         </li>
                     </ul>
                 </section>
@@ -192,11 +192,11 @@ const Home = ({
                             <div className={styles.nft}></div>
                             <div className={styles.description}>
                                 <h1></h1>
-                                <p>Relying on the official authorization of the French League, FFC will continue to sign new clubs and well-known stars and provide positive feedback to the FFC ecosystem to achieve the integration of the entire French League. In the future, FFC will issue NFTs and football-related NFT products based on stars and clubs, expand the FFC ecosystem, and enable users to gain more admission opportunities.</p>
+                                <p>{t('nft_content')}</p>
                                 <ul>
-                                    <li>1. Access exclusive clubs and interact with stars in the metaverse.</li>
-                                    <li>2. Obtain the rights to enter Gamefi in the FFC ecosystem and get token rewards.</li>
-                                    <li>3. Integrate the NFT you hold and obtain the opportunity about the limited NFT.</li>
+                                    <li>{t('nft_content1')}</li>
+                                    <li>{t('nft_content2')}</li>
+                                    <li>{t('nft_content3')}</li>
                                 </ul>
                             </div>
                             <i></i>
@@ -205,65 +205,65 @@ const Home = ({
                             <div className={styles.nft}></div>
                             <div className={styles.description}>
                                 <h1></h1>
-                                <p>GameFi is based on FFC ecology. It will be a Web3 football game that combines sports, social, and metaverse attributes. </p>
-                                <p>In this game, the NFT issued by FFC will serve as a ticket to participate in GameFi.  </p>
-                                <p>FFC Token acts as the fuel in the game process and realizes the continuous deflation of FFC Token with the help of consumption in the game process. </p>
+                                <p>{t('gamefi_content1')} </p>
+                                <p>{t('gamefi_content2')}</p>
+                                <p>{t('gamefi_content3')}</p>
                             </div>
                         </li>
                     </ul>
                 </section>
                 <section id="roadmap" className={styles.roadmap}>
-                    <div className={styles.title}>ROADMAP</div>
+                    <div className={styles.title}>{t('roadmap')}</div>
                     <div className={styles.content}>
                         <i className={styles.content_start}></i>
                         <i className={styles.content_line}></i>
                         <i className={styles.content_end}></i>
                         <ul>
                             <li>
-                                <h1>Febuary 2022</h1>
-                                <h2>Start officially</h2>
+                                <h1>{t('roadmap_time1')}</h1>
+                                <h2>{t('roadmap_time1_content1')}</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>October 2022</h1>
-                                <h2>Reveal some clubs and players we signed</h2>
+                                <h1>{t('roadmap_time2')}</h1>
+                                <h2>{t('roadmap_time2_content1')}</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>November 2022</h1>
-                                <h2>List FFC on top exchanges</h2>
-                                <h2>List star NFT</h2>
+                                <h1>{t('roadmap_time3')}</h1>
+                                <h2>{t('roadmap_time3_content1')}</h2>
+                                <h2>{t('roadmap_time3_content2')}</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>December 2022</h1>
-                                <h2>Reveal more clubs and players we signed</h2>
-                                <h2>Launch GameFi</h2>
+                                <h1>{t('roadmap_time4')}</h1>
+                                <h2>{t('roadmap_time4_content1')}</h2>
+                                <h2>{t('roadmap_time4_content2')}</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>Q1 2023</h1>
-                                <h2>Launch testnet</h2>
-                                <h2>Launch NFT trading platform</h2>
+                                <h1>{t('roadmap_time5')}</h1>
+                                <h2>{t('roadmap_time5_content1')}</h2>
+                                <h2>{t('roadmap_time5_content2')}</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>Q2 2023</h1>
-                                <h2>Co-brand with internationally renowned sports brands</h2>
-                                <h2>Reveal details of cooperation with well-known VR manufacturers </h2>
-                                <h2>Launch Football Metaverse</h2>
+                                <h1>{t('roadmap_time6')}</h1>
+                                <h2>{t('roadmap_time6_content1')}</h2>
+                                <h2>{t('roadmap_time6_content2')}</h2>
+                                <h2>{t('roadmap_time6_content3')}</h2>
                                 <i></i>
                             </li>
                             <li>
-                                <h1>Q3 2023</h1>
-                                <h2>Launch mainnet</h2>
+                                <h1>{t('roadmap_time7')}</h1>
+                                <h2>{t('roadmap_time7_content1')}</h2>
                                 <i></i>
                             </li>
                         </ul>
                     </div>
                 </section>
                 <section className={styles.our_partner}>
-                    <div className={styles.title}>OUR PARTNER</div>
+                    <div className={styles.title}>{t('our_partner')}</div>
                     <ul className={styles.partners}>
                         <li></li>
                         <li></li>
