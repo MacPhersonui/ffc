@@ -402,19 +402,80 @@ body.react-confirm-alert-body-element {
 
 .swiper-slide {
   font-size: 18px;
-  background: #0050DF;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 20px 30px;
+  // padding: 20px 30px;
   color: #fff;
   font-family: Product;
   transition: all .2s linear;
   height: 400px !important;
-
   .inner {
-    transition: all .2s linear;
+          transition: 0.8s;
+
+    width: 100%;
+    height: 100%;
+    &.team1{
+      background: url(../public/imgs/team1.png) no-repeat center/ auto 100%;
+    }
+    &.team2 {
+      background: url(../public/imgs/team2.png) no-repeat center/ auto 100%;
+    }
+    &.team3 {
+      background: url(../public/imgs/team3.png) no-repeat center/ auto 100%;
+    }
+    &.team4 {
+      background: url(../public/imgs/team4.png) no-repeat center/ auto 100%;
+    }
+    &.team5 {
+      background: url(../public/imgs/team5.png) no-repeat center/ auto 100%;
+    }
+    &.team5 {
+      background: url(../public/imgs/team5.png) no-repeat center/ auto 100%;
+    }
+    &.team6 {
+      background: url(../public/imgs/team6.png) no-repeat center/ auto 100%;
+    }
+    &.team7 {
+      background: url(../public/imgs/team7.png) no-repeat center/ auto 100%;
+    }
+    &.team8 {
+      background: url(../public/imgs/team8.png) no-repeat center/ auto 100%;
+    }
+    &.team9 {
+      background: url(../public/imgs/team9.png) no-repeat center/ auto 100%;
+    }
+    &.team10 {
+      background: url(../public/imgs/team10.png) no-repeat center/ auto 100%;
+    }
+    &.team11 {
+      background: url(../public/imgs/team11.png) no-repeat center/ auto 100%;
+    }
+    &.team12 {
+      background: url(../public/imgs/team12.png) no-repeat center/ auto 100%;
+    }
+    &.team13 {
+      background: url(../public/imgs/team13.png) no-repeat center/ auto 100%;
+    }
+    &.team14 {
+      background: url(../public/imgs/team14.png) no-repeat center/ auto 100%;
+    }
+    &.team15 {
+      background: url(../public/imgs/team15.png) no-repeat center/ auto 100%;
+    }
+    &.team16 {
+      background: url(../public/imgs/team16.png) no-repeat center/ auto 100%;
+    }
+    &.team17 {
+      background: url(../public/imgs/team17.png) no-repeat center/ auto 100%;
+    }
+    &.team18 {
+      background: url(../public/imgs/team18.png) no-repeat center/ auto 100%;
+    }
+    &.team19 {
+      background: url(../public/imgs/team19.png) no-repeat center/ auto 100%;
+    }
   }
 
   .outer {
@@ -426,19 +487,91 @@ body.react-confirm-alert-body-element {
     right: 0;
     bottom: 0;
     opacity: 0;
-    background: rgb(111, 197, 226);
     border-radius: 15px;
     overflow: hidden;
-
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 15px;
-      position: relative;
-      z-index: 11;
+    transition: 0.8s;
+    transform: rotate3d(0, 1, 0, -180deg);
+    font-size: 12px;
+    color: #cdfb00;
+    padding: 50px 120px;
+    &.team1 {
+      background: url(../public/imgs/team1_back.png) no-repeat center/auto 90%;
+    }
+    &.team2 {
+      background: url(../public/imgs/team2_back.png) no-repeat center/ auto 100%;
     }
 
+    &.team3 {
+      background: url(../public/imgs/team3_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team4 {
+      background: url(../public/imgs/team4_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team5 {
+      background: url(../public/imgs/team5_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team5 {
+      background: url(../public/imgs/team5_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team6 {
+      background: url(../public/imgs/team6_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team7 {
+      background: url(../public/imgs/team7_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team8 {
+      background: url(../public/imgs/team8_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team9 {
+      background: url(../public/imgs/team9_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team10 {
+      background: url(../public/imgs/team10_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team11 {
+      background: url(../public/imgs/team11_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team12 {
+      background: url(../public/imgs/team12_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team13 {
+      background: url(../public/imgs/team13_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team14 {
+      background: url(../public/imgs/team14_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team15 {
+      background: url(../public/imgs/team15_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team16 {
+      background: url(../public/imgs/team16_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team17 {
+      background: url(../public/imgs/team17_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team18 {
+      background: url(../public/imgs/team18_back.png) no-repeat center/ auto 100%;
+    }
+
+    &.team19 {
+      background: url(../public/imgs/team19_back.png) no-repeat center/ auto 100%;
+    }
     .cover {
       position: absolute;
       top: 50%;
@@ -506,15 +639,17 @@ body.react-confirm-alert-body-element {
   }
 
   &:hover {
-    transform: scale(1.1, 1.3);
 
     .inner {
-      opacity: 0;
+        transform: rotate3d(0, 1, 0, -180deg);
+        backface-visibility: hidden;
     }
 
     .outer {
       opacity: 1;
 
+      backface-visibility: hidden;
+      transform: rotate3d(0, 1, 0, -360deg);
 
       h4{
           transform: scale(0.909090909090909, 0.7692307692307692);
@@ -574,7 +709,7 @@ body.react-confirm-alert-body-element {
       height: 35px;
       cursor: pointer;
       border-radius: 50%;
-      border: 3px solid #0044D7;
+      border: 3px solid #56438a;
     }
 
     b {
@@ -593,7 +728,7 @@ body.react-confirm-alert-body-element {
 
   h3 {
     font-size: 14px;
-    color: #96E6FF;
+    color: #032662;
   }
 
   img {
@@ -607,4 +742,18 @@ body.react-confirm-alert-body-element {
     font-size: 12px;
     line-height: 1.5em;
   }
+}
+
+.animate__animated.animate__delay-6s {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-delay: calc(var(--animate-delay)*6);
+  animation-delay: calc(var(--animate-delay)*6)
+}
+
+.animate__animated.animate__delay-7s {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+  -webkit-animation-delay: calc(var(--animate-delay)*7);
+  animation-delay: calc(var(--animate-delay)*7)
 }

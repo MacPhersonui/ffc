@@ -51,6 +51,7 @@ import {
     Pagination,
     Keyboard
 } from "swiper"
+import 'animate.css'
 
 const cx = classNames.bind(styles)
 
@@ -87,29 +88,66 @@ const Home = ({
             }
             clearInterval(timer)
         }, 3000)
+
+        const handleScroll = event => {
+            console.log('window.scrollY', window.scrollY)
+            console.log("roadmap", document.getElementById("roadmap").getBoundingClientRect().top)
+            if (document.getElementById("ffc").getBoundingClientRect().top < 250) {
+                console.log("ffc", document.getElementById("ffc").getBoundingClientRect().top)
+                
+                document.querySelector("#ffc_title p").classList.add("animate__animated", "animate__fadeIn", "animate__slow")
+                document.querySelector("#ffc_title h1").classList.add("animate__animated", "animate__fadeIn", "animate__slow")
+                document.querySelector("#ffc_title h2").classList.add("animate__animated", "animate__fadeIn", "animate__slow")
+                document.querySelectorAll("#ffc ul li")[0].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-1s")
+                document.querySelectorAll("#ffc ul li")[1].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-2s")
+                document.querySelectorAll("#ffc ul li")[2].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-3s")
+            }
+            if (document.getElementById("nft").getBoundingClientRect().top < 300) {
+                console.log("nft", document.getElementById("nft").getBoundingClientRect().top)
+                console.log(document.querySelectorAll("#nft ul li")[1])
+                document.querySelectorAll("#nft>ul>li")[0].classList.add("animate__animated", "animate__fadeIn", "animate__slow")
+                document.querySelectorAll("#nft>ul>li")[1].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-1s")
+            }
+            if (document.getElementById("roadmap").getBoundingClientRect().top < 300) {
+                console.log("roadmap", document.getElementById("roadmap").getBoundingClientRect().top)
+                document.querySelectorAll("#roadmap ul li")[0].classList.add("animate__animated", "animate__fadeIn", "animate__slow")
+                document.querySelectorAll("#roadmap ul li")[1].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-1s")
+                document.querySelectorAll("#roadmap ul li")[2].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-2s")
+                document.querySelectorAll("#roadmap ul li")[3].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-3s")
+                document.querySelectorAll("#roadmap ul li")[4].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-4s")
+                document.querySelectorAll("#roadmap ul li")[5].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-5s")
+                document.querySelectorAll("#roadmap ul li")[6].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-6s")
+                document.querySelectorAll("#roadmap ul li")[7].classList.add("animate__animated", "animate__fadeIn", "animate__slow", "animate__delay-7s")
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll)
+
         return () => {
             clearInterval(timer)
+            window.removeEventListener('scroll', handleScroll)
         }
     }, [account])
+
 
     return (
         <HeaderFooter activeIndex={1}>
             <ToastContainer />
             <main className={styles.container}>
                 <section className={styles.solgen}>
-                    <div className={styles.player_left}>
+                    <div className={styles.player_left+ " animate__bounceInLeft animate__animated animate__slow"}>
                     </div>
-                    <div className={styles.player_left_shadow1}></div>
+                    <div className={styles.player_left_shadow1 }></div>
                     <div className={styles.player_left_shadow2}></div>
-                    <div className={styles.player_right}></div>
-                    <div className={styles.player_right_shadow1}></div>
+                    <div className={styles.player_right + " animate__bounceInRight animate__animated animate__slow"}></div>
+                    <div className={styles.player_right_shadow1 }></div>
                     <div className={styles.player_right_shadow2}></div>
                     <div className={styles.solgen_bottom_bg}></div>
-                    <div className={styles.solgen_title}>
+                    <div className={styles.solgen_title+ " animate__zoomInDown animate__animated animate__slow"}>
                         <p>{t('ffc')}</p>
                         <p>{t('to_web3')}</p>
                     </div>
-                    <div className={styles.solgen_subtitle}>
+                    <div className={styles.solgen_subtitle + " animate__zoomInUp animate__animated animate__slow"}>
                         <p>{t('build_the_first_league')}</p>
                         <p>{t('in_the_web3_world')}</p>
                     </div>
@@ -118,7 +156,7 @@ const Home = ({
                     <div className={styles.solgen_token2}></div>
                 </section>
                 <section id="ffc" className={styles.what_is_ffc}>
-                    <div className={styles.title}>
+                    <div id="ffc_title" className={styles.title}>
                         <h1>{t('what_is_ffc')}</h1>
                         <h2>{t('what_is_ffc')}</h2>
                         <p>{t('what_is_ffc_content')}</p>
@@ -157,35 +195,43 @@ const Home = ({
                     <h1>{t('ffc_football_ambassador')}</h1>
                     <ul>
                         <li>
-                            <span className={styles.cover}></span>
+                            <span className={styles.cover}>
+                                <video src="/imgs/Zakaria_Aboukhlal.mp4" muted={true} playsInline={true} autoPlay={true} loop={true}></video>
+                            </span>
                             <h1>{t("gianluigi_donnarumma")}</h1>
                             <p>{t("gianluigi_donnarumma_content1")}</p>
-                            <p>{t("gianluigi_donnarumma_content2")}</p>
-                            <p>{t("gianluigi_donnarumma_content3")}</p>
                         </li>
                         <li>
-                            <span className={styles.cover}></span>
+                            <span className={styles.cover}>
+                                <video src="/imgs/Ado_Onaiwu.mp4" muted={true} playsInline={true} autoPlay={true} loop={true}></video>
+                            </span>
                             <h1>{t("achraf_hakimi")}</h1>
                             <p>{t("achraf_hakimi_content1")}</p>
-                            <p>{t("achraf_hakimi_content2")}</p>
                         </li>
                         <li>
-                            <span className={styles.cover}></span>
+                            <span className={styles.cover}>
+                                <video src="/imgs/Florian_Sotoca.mp4" muted={true} playsInline={true} autoPlay={true} loop={true}></video>
+                            </span>
                             <h1>{t("marco_verratti")}</h1>
                             <p>{t('marco_verratti_content1')}</p>
-                            <p>{t('marco_verratti_content2')}</p>
-                            <p>{t('marco_verratti_content3')}</p>
                         </li>
                         <li>
-                            <span className={styles.cover}></span>
+                            <span className={styles.cover}>
+                                <video src="/imgs/Martin_Terrier.mp4" muted={true} playsInline={true} autoPlay={true} loop={true}></video>
+                            </span>
                             <h1>{t('lucas_hernández')}</h1>
                             <p>{t('lucas_hernández_content1')}</p>
-                            <p>{t('lucas_hernández_content2')}</p>
-                            <p>{t('lucas_hernández_content3')}</p>
+                        </li>
+                        <li>
+                            <span className={styles.cover}>
+                                <video src="/imgs/video.mp4" muted={true} playsInline={true} autoPlay={true} loop={true}></video>
+                            </span>
+                            <h1>{t('lucas_hernández')}</h1>
+                            <p>{t('lucas_hernández_content1')}</p>
                         </li>
                     </ul>
                 </section>
-                <section  id="nft"  className={styles.plan}>
+                <section id="nft"  className={styles.plan}>
                     <div className={styles.title}></div>
                     <ul className={styles.content}>
                         <li>
@@ -224,7 +270,7 @@ const Home = ({
                                 <h2>{t('roadmap_time1_content1')}</h2>
                                 <i></i>
                             </li>
-                            <li>
+                            <li >
                                 <h1>{t('roadmap_time2')}</h1>
                                 <h2>{t('roadmap_time2_content1')}</h2>
                                 <i></i>
@@ -235,23 +281,19 @@ const Home = ({
                                 <h2>{t('roadmap_time3_content2')}</h2>
                                 <i></i>
                             </li>
-                            <li>
+                            <li >
                                 <h1>{t('roadmap_time4')}</h1>
                                 <h2>{t('roadmap_time4_content1')}</h2>
-                                <h2>{t('roadmap_time4_content2')}</h2>
                                 <i></i>
                             </li>
                             <li>
                                 <h1>{t('roadmap_time5')}</h1>
                                 <h2>{t('roadmap_time5_content1')}</h2>
-                                <h2>{t('roadmap_time5_content2')}</h2>
                                 <i></i>
                             </li>
                             <li>
                                 <h1>{t('roadmap_time6')}</h1>
                                 <h2>{t('roadmap_time6_content1')}</h2>
-                                <h2>{t('roadmap_time6_content2')}</h2>
-                                <h2>{t('roadmap_time6_content3')}</h2>
                                 <i></i>
                             </li>
                             <li>
@@ -259,12 +301,45 @@ const Home = ({
                                 <h2>{t('roadmap_time7_content1')}</h2>
                                 <i></i>
                             </li>
+                            <li>
+                                <h1>{t('roadmap_time8')}</h1>
+                                <h2>{t('roadmap_time8_content1')}</h2>
+                                <i></i>
+                            </li>
                         </ul>
                     </div>
                 </section>
                 <section className={styles.our_partner}>
                     <div className={styles.title}>{t('our_partner')}</div>
-                    <ul className={styles.partners}>
+                    <Swiper
+                        slidesPerView={4}
+                        spaceBetween={0}
+                        navigation={true}
+                        loop={true}
+                        modules={[Navigation, Pagination, Keyboard]}
+                    >
+                        <SwiperSlide><div className="inner team1"></div><div className="outer team1">{t('team1')}</div></SwiperSlide >
+                        <SwiperSlide><div className="inner team2"></div><div className="outer team2">{t('team2')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team3"></div><div className="outer team3">{t('team3')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team4"></div><div className="outer team4">{t('team4')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team5"></div><div className="outer team5">{t('team5')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team6"></div><div className="outer team6">{t('team6')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team7"></div><div className="outer team7">{t('team7')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team8"></div><div className="outer team8">{t('team8')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team9"></div><div className="outer team9">{t('team9')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team10"></div><div className="outer team10">{t('team10')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team11"></div><div className="outer team11">{t('team11')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team12"></div><div className="outer team12">{t('team12')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team13"></div><div className="outer team13">{t('team13')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team14"></div><div className="outer team14">{t('team14')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team15"></div><div className="outer team15">{t('team15')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team16"></div><div className="outer team16">{t('team16')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team17"></div><div className="outer team17">{t('team17')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team18"></div><div className="outer team18">{t('team18')}</div></SwiperSlide>
+                        <SwiperSlide><div className="inner team19"></div><div className="outer team19">{t('team19')}</div></SwiperSlide>
+
+                    </Swiper>
+                    {/* <ul className={styles.partners}>
                         <li></li>
                         <li></li>
                         <li></li>
@@ -272,7 +347,7 @@ const Home = ({
                         <li></li>
                         <li></li>
                     </ul>
-                    <div className={styles.team}></div>
+                    <div className={styles.team}></div> */}
                 </section>
             </main>
         </HeaderFooter>

@@ -15,7 +15,6 @@ const Footer = ({ t }) => {
                                 <i className={styles.discord}></i>
                             </li>
                         </ul>
-                        <span>FFC Club.</span>
                 </div>
             </div>
         </footer>

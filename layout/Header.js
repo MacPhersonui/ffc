@@ -47,15 +47,29 @@ const Header = (props) => {
         }
     }
 
+    const scrollToAnchor = (anchorName) => {
+        if (anchorName) {
+            let anchorElement = document.getElementById(anchorName)
+            if (anchorElement) {
+                anchorElement.scrollIntoView({
+                    block: "start",
+                    behavior: "smooth"
+                })
+            }
+        }
+    }
+
+    
+
     return (
         <header className={styles.header}>
             <nav className={styles.navbar}>
                 <i className={styles.logo}></i>
                 <ul>
-                    <Link href="/"><li className={styles.active}>Home</li></Link>
-                    <Link href="/#ffc"><li>FFC</li></Link>
-                    <Link href="/#nft"><li>NFT & GameFi</li></Link>
-                    <Link href="/#roadmap"><li>ROADMAP</li></Link>
+                    <li className={styles.active}>Home</li>
+                    <li onClick={() => scrollToAnchor("ffc")}>FFC</li>
+                    <li onClick={() => scrollToAnchor("nft")}>NFT & GameFi</li>
+                    <li onClick={() => scrollToAnchor("roadmap")}>ROADMAP</li>
                 </ul>
                 {/* <div className={styles.wallet}>
                     <Wallet />

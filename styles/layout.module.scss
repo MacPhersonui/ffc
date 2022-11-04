@@ -119,13 +119,15 @@
             line-height: 0.45rem;
             ul {
                 align-items: center;
-                display: inline-flex;
+                float: right;
                 vertical-align: middle;
+                white-space: nowrap;
                 li {
                     color: rgb(127, 124, 141);
                     padding: 0 10px;
                     text-decoration: none;
                     cursor: pointer;
+                    display: inline-block;
 
                     i {
                         display: inline-block;
