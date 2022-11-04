@@ -65,6 +65,7 @@ const toastConfig = {
     pauseOnHover: false,
 }
 
+
 const Home = ({
     router
 }) => {
@@ -80,6 +81,10 @@ const Home = ({
     } = wallet
 
     const web3 = new Web3(ethereum)
+    const [swapCount, setSwapCount] = useState(4)
+
+
+   
 
     useEffect(async () => {
         const timer = setInterval(async () => {
@@ -89,6 +94,11 @@ const Home = ({
             clearInterval(timer)
         }, 3000)
 
+
+        const windowWidth = document.body.clientWidth
+        if (windowWidth <= 500) {
+            setSwapCount(1)
+        }
         const handleScroll = event => {
             console.log('window.scrollY', window.scrollY)
             console.log("roadmap", document.getElementById("roadmap").getBoundingClientRect().top)
@@ -312,7 +322,7 @@ const Home = ({
                 <section className={styles.our_partner}>
                     <div className={styles.title}>{t('our_partner')}</div>
                     <Swiper
-                        slidesPerView={4}
+                        slidesPerView={swapCount}
                         spaceBetween={0}
                         navigation={true}
                         loop={true}
