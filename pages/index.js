@@ -86,6 +86,8 @@ const Home = ({
     const web3 = new Web3(ethereum)
     const [swapCount, setSwapCount] = useState(4)
     const [thumbsSwiper, setThumbsSwiper] = useState(null)
+    const [thumbsSwiper2, setThumbsSwiper2] = useState(null)
+
 
     useEffect(async () => {
         const timer = setInterval(async () => {
@@ -210,10 +212,16 @@ const Home = ({
                                                 <SwiperSlide className={styles.swiper_silde}>
                                                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1WJhn7Ih7v8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                                                 </SwiperSlide>
+                                                <SwiperSlide className={styles.swiper_silde}>
+                                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1WJhn7Ih7v8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                                                </SwiperSlide>
+                                                <SwiperSlide className={styles.swiper_silde}>
+                                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1WJhn7Ih7v8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                                                </SwiperSlide>
                                             </Swiper>
                                             <Swiper
                                                 onSwiper={setThumbsSwiper}
-                                                loop={true}
+                                                // loop={true}
                                                 spaceBetween={10}
                                                 slidesPerView={4}
                                                 freeMode={true}
@@ -221,6 +229,12 @@ const Home = ({
                                                 modules={[FreeMode, Navigation, Thumbs]}
                                                 className="mySwiper"
                                             >
+                                                <SwiperSlide className={styles.swiper_silde_thumbs}>
+                                                    <Image src="/home/imgs.jpeg" layout='fill' />
+                                                </SwiperSlide>
+                                                <SwiperSlide className={styles.swiper_silde_thumbs}>
+                                                    <Image src="/home/imgs.jpeg" layout='fill' />
+                                                </SwiperSlide>
                                                 <SwiperSlide className={styles.swiper_silde_thumbs}>
                                                     <Image src="/home/imgs.jpeg" layout='fill' />
                                                 </SwiperSlide>
@@ -243,7 +257,7 @@ const Home = ({
                                             }}
                                             loop={true}
                                             spaceBetween={10}
-                                            thumbs={{ swiper: thumbsSwiper }}
+                                            thumbs={{ swiper: thumbsSwiper2 }}
                                             modules={[FreeMode, Navigation, Thumbs]}
                                             className="mySwiper2"
                                         >
@@ -261,8 +275,8 @@ const Home = ({
                                             </SwiperSlide>
                                         </Swiper>
                                         <Swiper
-                                            onSwiper={setThumbsSwiper}
-                                            loop={true}
+                                            onSwiper={setThumbsSwiper2}
+                                            // loop={true}
                                             spaceBetween={30}
                                             slidesPerView={4}
                                             freeMode={true}
@@ -271,19 +285,19 @@ const Home = ({
                                             className="mySwiper"
                                         >
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <Image src="/home/imgs.jpeg" layout='fill' />
+                                                <span  />
                                                 <i>What is FFC</i>
                                             </SwiperSlide>
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <Image src="/home/imgs.jpeg" layout='fill' />
+                                                <span  />
                                                 <i>FFC TOKEN</i>
                                             </SwiperSlide>
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <Image src="/home/imgs.jpeg" layout='fill' />
+                                                <span  />
                                                 <i>FFC NFT</i>
                                             </SwiperSlide>
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <Image src="/home/imgs.jpeg" layout='fill' />
+                                                <span  />
                                                 <i>FFC GAME</i>
                                             </SwiperSlide>
                                         </Swiper>
