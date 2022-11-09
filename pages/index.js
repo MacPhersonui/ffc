@@ -188,7 +188,7 @@ const Home = ({
                                                 <SwiperSlide className={styles.team_list}></SwiperSlide>
                                                 <SwiperSlide className={styles.team_list}></SwiperSlide>
                                             </Swiper>
-                                            <button>More Club >></button>
+                                            <button>More Club &gt;&gt;</button>
                                         </div>
                                     </div>
                                     <div className={styles.video}>
@@ -216,17 +216,16 @@ const Home = ({
                                                 loop={true}
                                                 spaceBetween={10}
                                                 slidesPerView={4}
-                                                loop={true}
                                                 freeMode={true}
                                                 watchSlidesProgress={true}
                                                 modules={[FreeMode, Navigation, Thumbs]}
                                                 className="mySwiper"
                                             >
                                                 <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                    <img src="https://i.ytimg.com/vi/1WJhn7Ih7v8/maxresdefault.jpg" />
+                                                    <Image src="/home/imgs.jpeg" layout='fill' />
                                                 </SwiperSlide>
                                                 <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                    <img src="https://i.ytimg.com/vi/1WJhn7Ih7v8/maxresdefault.jpg" />
+                                                    <Image src="/home/imgs.jpeg" layout='fill' />
                                                 </SwiperSlide>
                                             </Swiper>
                                         </div>
@@ -266,26 +265,25 @@ const Home = ({
                                             loop={true}
                                             spaceBetween={30}
                                             slidesPerView={4}
-                                            loop={true}
                                             freeMode={true}
                                             watchSlidesProgress={true}
                                             modules={[FreeMode, Navigation, Thumbs]}
                                             className="mySwiper"
                                         >
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <img src="https://i.ytimg.com/vi/1WJhn7Ih7v8/maxresdefault.jpg" />
+                                                <Image src="/home/imgs.jpeg" layout='fill' />
                                                 <i>What is FFC</i>
                                             </SwiperSlide>
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <img src="https://i.ytimg.com/vi/1WJhn7Ih7v8/maxresdefault.jpg" />
+                                                <Image src="/home/imgs.jpeg" layout='fill' />
                                                 <i>FFC TOKEN</i>
                                             </SwiperSlide>
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <img src="https://i.ytimg.com/vi/1WJhn7Ih7v8/maxresdefault.jpg" />
+                                                <Image src="/home/imgs.jpeg" layout='fill' />
                                                 <i>FFC NFT</i>
                                             </SwiperSlide>
                                             <SwiperSlide className={styles.swiper_silde_thumbs}>
-                                                <img src="https://i.ytimg.com/vi/1WJhn7Ih7v8/maxresdefault.jpg" />
+                                                <Image src="/home/imgs.jpeg" layout='fill' />
                                                 <i>FFC GAME</i>
                                             </SwiperSlide>
                                         </Swiper>
