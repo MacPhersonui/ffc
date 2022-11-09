@@ -14,6 +14,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/register": "^7.17.0",
     "@chainlink/contracts": "^0.4.0",
+    "@fullpage/react-fullpage": "^0.1.29",
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-etherscan": "^3.0.1",
     "@nomiclabs/hardhat-truffle5": "^2.0.4",

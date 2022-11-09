@@ -193,41 +193,13 @@ a {
 }
 
 body {
-  background: #032562;
+  background: #01071e;
+  color: #fff;
   overflow: hidden;
   animation: overflow 6s;
   animation-fill-mode: forwards;
+  font-family: Fifa;
 }
-
-@font-face {
-  font-family: 'bahnschrift';
-  src: url('../public/font/BAHNSCHRIFT.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'halva_m';
-  src: url('../public/font/HALVA_M.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'halva_r';
-  src: url('../public/font/HALVA_R.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'amertha';
-  src: url('../public/font/AMERTHA.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 @keyframes overflow {
   0% {
@@ -396,364 +368,72 @@ body.react-confirm-alert-body-element {
 
 .swiper {
   width: 100%;
-  height: 600px;
-  padding: 100px 20px !important;
+  height: 100%;
 }
 
 .swiper-slide {
+  text-align: center;
   font-size: 18px;
-  border-radius: 15px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  // padding: 20px 30px;
-  color: #fff;
-  font-family: Product;
-  transition: all .2s linear;
-  height: 400px !important;
-  .inner {
-          transition: 0.8s;
-
-    width: 100%;
-    height: 100%;
-    &.team1{
-      background: url(../public/imgs/team1.png) no-repeat center/ auto 100%;
-    }
-    &.team2 {
-      background: url(../public/imgs/team2.png) no-repeat center/ auto 100%;
-    }
-    &.team3 {
-      background: url(../public/imgs/team3.png) no-repeat center/ auto 100%;
-    }
-    &.team4 {
-      background: url(../public/imgs/team4.png) no-repeat center/ auto 100%;
-    }
-    &.team5 {
-      background: url(../public/imgs/team5.png) no-repeat center/ auto 100%;
-    }
-    &.team5 {
-      background: url(../public/imgs/team5.png) no-repeat center/ auto 100%;
-    }
-    &.team6 {
-      background: url(../public/imgs/team6.png) no-repeat center/ auto 100%;
-    }
-    &.team7 {
-      background: url(../public/imgs/team7.png) no-repeat center/ auto 100%;
-    }
-    &.team8 {
-      background: url(../public/imgs/team8.png) no-repeat center/ auto 100%;
-    }
-    &.team9 {
-      background: url(../public/imgs/team9.png) no-repeat center/ auto 100%;
-    }
-    &.team10 {
-      background: url(../public/imgs/team10.png) no-repeat center/ auto 100%;
-    }
-    &.team11 {
-      background: url(../public/imgs/team11.png) no-repeat center/ auto 100%;
-    }
-    &.team12 {
-      background: url(../public/imgs/team12.png) no-repeat center/ auto 100%;
-    }
-    &.team13 {
-      background: url(../public/imgs/team13.png) no-repeat center/ auto 100%;
-    }
-    &.team14 {
-      background: url(../public/imgs/team14.png) no-repeat center/ auto 100%;
-    }
-    &.team15 {
-      background: url(../public/imgs/team15.png) no-repeat center/ auto 100%;
-    }
-    &.team16 {
-      background: url(../public/imgs/team16.png) no-repeat center/ auto 100%;
-    }
-    &.team17 {
-      background: url(../public/imgs/team17.png) no-repeat center/ auto 100%;
-    }
-    &.team18 {
-      background: url(../public/imgs/team18.png) no-repeat center/ auto 100%;
-    }
-    &.team19 {
-      background: url(../public/imgs/team19.png) no-repeat center/ auto 100%;
-    }
-  }
-
-  .outer {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    border-radius: 15px;
-    overflow: hidden;
-    transition: 0.8s;
-    transform: rotate3d(0, 1, 0, -180deg);
-    font-size: 12px;
-    color: #cdfb00;
-    padding: 50px 120px;
-    &.team1 {
-      background: url(../public/imgs/team1_back.png) no-repeat center/auto 90%;
-    }
-    &.team2 {
-      background: url(../public/imgs/team2_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team3 {
-      background: url(../public/imgs/team3_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team4 {
-      background: url(../public/imgs/team4_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team5 {
-      background: url(../public/imgs/team5_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team5 {
-      background: url(../public/imgs/team5_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team6 {
-      background: url(../public/imgs/team6_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team7 {
-      background: url(../public/imgs/team7_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team8 {
-      background: url(../public/imgs/team8_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team9 {
-      background: url(../public/imgs/team9_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team10 {
-      background: url(../public/imgs/team10_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team11 {
-      background: url(../public/imgs/team11_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team12 {
-      background: url(../public/imgs/team12_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team13 {
-      background: url(../public/imgs/team13_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team14 {
-      background: url(../public/imgs/team14_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team15 {
-      background: url(../public/imgs/team15_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team16 {
-      background: url(../public/imgs/team16_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team17 {
-      background: url(../public/imgs/team17_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team18 {
-      background: url(../public/imgs/team18_back.png) no-repeat center/ auto 100%;
-    }
-
-    &.team19 {
-      background: url(../public/imgs/team19_back.png) no-repeat center/ auto 100%;
-    }
-    .cover {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: linear-gradient(rgba(0, 64, 212, 0), #0040d48c);
-      z-index: 12;
-    }
-
-    h4 {
-      overflow: hidden;
-      width: 100%;
-      line-height: 35px;
-      padding-bottom: 10px;
-      margin-bottom: 30px;
-      position: relative;
-
-      span {
-        float: left;
-        color: #fff;
-        font-size: 16px;
-      }
-
-
-      b {
-        height: 2px;
-        background: #F7D777;
-        width: 10px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-      }
-    }
-
-    h4{
-          overflow: hidden;
-          line-height: 35px;
-          position: absolute;
-          top: 230px;
-          z-index: 11;
-          left: 20px;
-          right: 20px;
-    }
-
-    h5 {
-      position: absolute;
-      font-size:24px;
-      left: 20px;
-      right: 20px;
-      text-align: center;
-      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-      z-index: 12;
-      top: 280px;
-    }
-
-    p {
-      text-align: center;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 320px;
-      z-index: 13;
-    }
-  }
-
-  &:hover {
-
-    .inner {
-        transform: rotate3d(0, 1, 0, -180deg);
-        backface-visibility: hidden;
-    }
-
-    .outer {
-      opacity: 1;
-
-      backface-visibility: hidden;
-      transform: rotate3d(0, 1, 0, -360deg);
-
-      h4{
-          transform: scale(0.909090909090909, 0.7692307692307692);
-      }
-      h5 {
-        transform: scale(0.909090909090909, 0.7692307692307692);
-        text-align: left;
-      }
-
-      p {
-        transform: scale(0.909090909090909, 0.7692307692307692);
-
-        button {
-          background: #FFD752;
-          color: #F05F37;
-          border-radius: 12px;
-          border: 3px solid #FFC931;
-          padding: 10px 40px 10px 20px;
-          font-family: Product;
-          position: relative;
-          cursor: pointer;
-          font-weight: bold;
-
-          i {
-            background: url(../public/home/launch_arrow.svg) no-repeat center/20% auto #FFC931;
-            position: absolute;
-            right: 0;
-            height: 100%;
-            width: 30px;
-            top: 0;
-            border-top-right-radius: 12px;
-            border-bottom-right-radius: 12px;
-          }
-        }
-      }
-    }
-  }
-
-  h1 {
-    overflow: hidden;
-    width: 100%;
-    line-height: 35px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    position: relative;
-
-    span {
-      float: left;
-      color: #F7D777;
-      font-size: 16px;
-    }
-
-    i {
-      background: url(../public/home/project_star.svg) no-repeat center/50% auto #0050DF;
-      float: right;
-      width: 35px;
-      height: 35px;
-      cursor: pointer;
-      border-radius: 50%;
-      border: 3px solid #56438a;
-    }
-
-    b {
-      height: 2px;
-      background: #2266F4;
-      width: 10px;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 14px;
-    color: #032662;
-  }
-
-  img {
-    width: 100%;
-    height: 150px;
-    border-radius: 15px;
-    margin: 20px 0;
-  }
-
-  p {
-    font-size: 12px;
-    line-height: 1.5em;
-  }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-.animate__animated.animate__delay-6s {
-  -webkit-animation-delay: 6s;
-  animation-delay: 6s;
-  -webkit-animation-delay: calc(var(--animate-delay)*6);
-  animation-delay: calc(var(--animate-delay)*6)
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.animate__animated.animate__delay-7s {
-  -webkit-animation-delay: 7s;
-  animation-delay: 7s;
-  -webkit-animation-delay: calc(var(--animate-delay)*7);
-  animation-delay: calc(var(--animate-delay)*7)
+.swiper {
+  width: 100%;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 0.2rem;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
